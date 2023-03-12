@@ -1,0 +1,9 @@
+name: 'Field Group Table'
+type: module
+description: 'Render fields in a 2-column table.'
+package: Fields
+core: '8.x'
+core_version_requirement: ^8 || ^9 || ^10
+
+dependencies:
+  - field_group:field_group

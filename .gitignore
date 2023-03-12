@@ -2,7 +2,6 @@
 /vendor
 /web/.*
 /web/*.php
-/web/*.php
 /web/*.txt
 /web/example.gitignore
 /web/web.config
