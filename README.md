@@ -8,8 +8,8 @@ Git でプロジェクトを取得し、プロジェクトのディレクトリ�
 
 ```
 $ cd /var/www
-$ git clone git@github.com:bkenro/nyankotsu.git naynkotsu
-$ cd naynkotsu
+$ git clone git@github.com:bkenro/nyankotsu.git nyankotsu
+$ cd nyankotsu
 $ composer install
 ```
 
