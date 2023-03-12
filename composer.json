@@ -87,7 +87,6 @@
             "web/core": [
                 "type:drupal-core"
             ],
-            "web/libraries/DOMPurify": ["bower-asset/dompurify"],
             "web/libraries/{$name}": [
                 "type:drupal-library",
                 "type:npm-asset",
