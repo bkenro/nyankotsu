@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 9e5ced62-f11d-481b-bdfc-ed6f6e9555e1
+  bundle: menu_link_content
+  default_langcode: ja
+  depends:
+    5ac4d04f-b7e7-4200-9ff5-fcf8e7869dcd: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 商店街について
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 5ac4d04f-b7e7-4200-9ff5-fcf8e7869dcd
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d4613839-28dd-4596-846d-0f83b9f4fad4
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thomas-martinsen-_FilM6g6DEQ-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/thomas-martinsen-_FilM6g6DEQ-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 97012
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669531894

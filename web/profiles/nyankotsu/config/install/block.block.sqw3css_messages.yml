@@ -1,0 +1,20 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+id: sqw3css_messages
+theme: sqw3css
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ステータスメッセージ
+  label_display: '0'
+  provider: system
+visibility: {  }

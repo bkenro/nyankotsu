@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 74b7ef9f-b71f-45a9-80f1-1cfb9dbbfa23
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: kahfiara-krisna-qWwjmFMWuIc-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/kahfiara-krisna-qWwjmFMWuIc-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 102871
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669531278

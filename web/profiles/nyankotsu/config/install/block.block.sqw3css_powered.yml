@@ -1,0 +1,23 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+third_party_settings:
+  block_class:
+    classes: 'w3-small w3-link-blue'
+id: sqw3css_powered
+theme: sqw3css
+region: footer_menu
+weight: -11
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cf25ed75-5adb-41b5-aef5-f34acc33bf0c
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: merve-sehirli-nasir-sFubXOglx7g-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/merve-sehirli-nasir-sFubXOglx7g-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 100471
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669538365

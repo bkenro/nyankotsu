@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c67b8b9f-8ef4-46d0-ab78-bf41c2c8d2ea
+  bundle: banner_image
+  default_langcode: ja
+  depends:
+    631d2414-4d9c-4b69-8538-dae613419e56: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: レゴのブロック
+  created:
+    -
+      value: 1666177126
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 631d2414-4d9c-4b69-8538-dae613419e56
+      alt: レゴのブロック
+      title: ''
+      width: 769
+      height: 512

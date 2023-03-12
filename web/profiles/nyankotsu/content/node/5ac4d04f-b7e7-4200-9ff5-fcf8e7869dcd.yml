@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ac4d04f-b7e7-4200-9ff5-fcf8e7869dcd
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 商店街について
+  created:
+    -
+      value: 1669270648
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<h2>にゃんコツ商店街のご紹介</h2>\r\n\r\n<p>このページでは、にゃんコツ商店街がどんな商店街なのかご紹介します。</p>\r\n"
+      format: full_html
+      summary: ''

@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 96993c0a-ed1a-4c9e-ae2a-c066fdf1f226
+  bundle: basic
+  default_langcode: ja
+  depends:
+    84b09cc2-e20b-4afd-b6aa-3de077de52f4: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: ボトム四段組の4
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"w3-col s7 m9 w3-hide-large\">\r\n<div class=\"w3-margin-right w3-large\">いぬ</div>\r\n\r\n<div class=\"w3-margin-right w3-small w3-text-dark-gray\">自称イケメン営業。身だしなみは犬への敬意というのが持論。</div>\r\n</div>\r\n\r\n<div class=\"w3-col s5 m3 l12\"><img alt=\"犬\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-84b09cc2-e20b-4afd-b6aa-3de077de52f4\" data-insert-attach=\"{&quot;id&quot;:&quot;84b09cc2-e20b-4afd-b6aa-3de077de52f4&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}\" data-insert-class=\"\" data-insert-type=\"image\" height=\"426\" src=\"/sites/default/files/2022-10/face-dog.jpg\" width=\"640\" /></div>\r\n\r\n<div class=\"w3-col w3-margin-top w3-hide-small w3-hide-medium\">\r\n<div class=\"w3-center\">いぬ</div>\r\n\r\n<div class=\"w3-small w3-text-dark-gray\">自称イケメン営業。身だしなみは犬への敬意というのが持論。</div>\r\n</div>\r\n\r\n"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 84b09cc2-e20b-4afd-b6aa-3de077de52f4
+      alt: 犬
+      title: ''
+      width: 640
+      height: 426

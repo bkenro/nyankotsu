@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 73f21cfd-99f2-42fa-b553-cb744dc2dbe8
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: にゃんコツ商店街へようこそ
+  created:
+    -
+      value: 1669542423
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /front0
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<p>にゃんコツ商店街のホームページへ、ようこそいらっしゃいました。</p>\r\n\r\n<p>このサイトでは、商店街の各店舗や、商店街で開催される各種イベントの情報などを発信しています。商店街ともども、どうぞよろしくお願いいたします。</p>\r\n"
+      format: basic_html
+      summary: ''

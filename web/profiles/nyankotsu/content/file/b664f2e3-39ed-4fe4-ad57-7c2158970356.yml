@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b664f2e3-39ed-4fe4-ad57-7c2158970356
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: yeh-xintong-go3DT3PpIw4-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/yeh-xintong-go3DT3PpIw4-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 183816
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669532726

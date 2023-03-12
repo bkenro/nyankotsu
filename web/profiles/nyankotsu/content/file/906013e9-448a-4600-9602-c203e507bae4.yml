@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 906013e9-448a-4600-9602-c203e507bae4
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: frontend.jpg
+  uri:
+    -
+      value: 'public://2022-10/frontend_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 188282
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1666184299

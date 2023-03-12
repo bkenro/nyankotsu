@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d02d832a-c4b0-4f67-869e-33a891c408c7
+  bundle: shop
+  default_langcode: ja
+  depends:
+    2a4544fa-fc19-4482-a3b4-b4e0736024e5: file
+    64b4d73d-fc78-456a-8b6c-456bbc1d8b2c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 桃園郷
+  created:
+    -
+      value: 1669534051
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/15
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 2a4544fa-fc19-4482-a3b4-b4e0736024e5
+      alt: 桃園郷
+      title: ''
+      width: 1280
+      height: 950
+  field_master:
+    -
+      value: 張さん
+  field_openhours:
+    -
+      value: 11〜14時、18〜23時（水曜定休）
+  field_products:
+    -
+      value: 'チャーハン　餃子'
+  field_shopname:
+    -
+      value: 桃園郷
+  field_shopnumber:
+    -
+      value: 15
+  field_shoptype:
+    -
+      entity: 64b4d73d-fc78-456a-8b6c-456bbc1d8b2c

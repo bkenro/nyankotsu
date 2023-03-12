@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 12a8a44d-2829-459d-8f8a-9932e58babdc
+  bundle: shop
+  default_langcode: ja
+  depends:
+    77e4863e-5697-4bf1-a658-b5a78cc9a666: file
+    44f95737-ad3c-4a70-8be8-ea9db7c2600c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 玩具倉庫
+  created:
+    -
+      value: 1669538386
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/26
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 77e4863e-5697-4bf1-a658-b5a78cc9a666
+      alt: 玩具倉庫
+      title: ''
+      width: 1280
+      height: 953
+  field_master:
+    -
+      value: 富谷さん
+  field_openhours:
+    -
+      value: 10〜18時（木曜定休）
+  field_products:
+    -
+      value: 'プラモデル　ラジコン'
+  field_shopname:
+    -
+      value: 玩具倉庫
+  field_shopnumber:
+    -
+      value: 26
+  field_shoptype:
+    -
+      entity: 44f95737-ad3c-4a70-8be8-ea9db7c2600c

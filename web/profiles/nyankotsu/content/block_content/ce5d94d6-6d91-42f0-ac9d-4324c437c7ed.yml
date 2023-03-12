@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ce5d94d6-6d91-42f0-ac9d-4324c437c7ed
+  bundle: basic
+  default_langcode: ja
+  depends:
+    3d568fab-1ec6-4c93-aaf6-419f84cb42cc: file
+    8ec0010f-a793-4390-b849-ab860d468c55: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: ようこそ
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div><img alt=\"昼の通り\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-8ec0010f-a793-4390-b849-ab860d468c55\" data-insert-attach=\"{&quot;id&quot;:&quot;8ec0010f-a793-4390-b849-ab860d468c55&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}\" data-insert-class=\"\" data-insert-type=\"image\" src=\"/sites/default/files/2022-11/daystreet.jpg\" /></div>\r\n"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 3d568fab-1ec6-4c93-aaf6-419f84cb42cc
+      alt: 夜の通り
+      title: ''
+      width: 1600
+      height: 700
+    -
+      entity: 8ec0010f-a793-4390-b849-ab860d468c55
+      alt: 昼の通り
+      title: ''
+      width: 1600
+      height: 700

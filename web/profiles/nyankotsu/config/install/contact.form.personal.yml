@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: personal
+label: パーソナルコンタクトフォーム
+recipients: {  }
+reply: ''
+weight: 0
+message: メッセージは送信されました
+redirect: ''

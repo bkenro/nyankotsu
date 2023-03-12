@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c23b3c5f-3024-4843-95d9-38f86306c9d4
+  bundle: shop
+  default_langcode: ja
+  depends:
+    f313bbc6-ab51-4d3f-b22e-f6185f89acda: file
+    8a5e5e3d-515d-434d-9425-e63738906afe: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 本と文具の光琳堂
+  created:
+    -
+      value: 1669530488
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/6
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: f313bbc6-ab51-4d3f-b22e-f6185f89acda
+      alt: 光琳堂
+      title: ''
+      width: 1280
+      height: 854
+  field_master:
+    -
+      value: 岩崎さん
+  field_openhours:
+    -
+      value: 10〜21時
+  field_products:
+    -
+      value: 書籍、文房具
+  field_shopname:
+    -
+      value: 光琳堂
+  field_shopnumber:
+    -
+      value: 6
+  field_shoptype:
+    -
+      entity: 8a5e5e3d-515d-434d-9425-e63738906afe

@@ -1,0 +1,20 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - help
+  theme:
+    - sqw3css
+id: sqw3css_help
+theme: sqw3css
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: ヘルプ
+  label_display: '0'
+  provider: help
+visibility: {  }

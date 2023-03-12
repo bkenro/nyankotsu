@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 05ac8efa-66be-49d0-bde3-ed6a2ec10021
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 神社の紹介
+  created:
+    -
+      value: 1669271306
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shrine
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<h2>にゃんコツ神社を知る</h2>\r\n\r\n<p>このページでは、にゃんコツ神社の知られざる秘密を披露します。</p>\r\n"
+      format: full_html
+      summary: ''

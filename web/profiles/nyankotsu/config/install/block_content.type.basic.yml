@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: basic
+label: 基本ブロック
+revision: 0
+description: 基本ブロックには、タイトル、本文、および挿入用の画像フィールドが用意されています。

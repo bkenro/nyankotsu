@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eda2da6c-f195-416f-8709-a494aa75ade4
+  bundle: shop
+  default_langcode: ja
+  depends:
+    7b4d2f26-ef31-4372-9660-6b9aab325609: file
+    dc885ff0-31bd-4be1-886b-2240bc700bc2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '御菓子処　ながゐ'
+  created:
+    -
+      value: 1669529524
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/2
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 7b4d2f26-ef31-4372-9660-6b9aab325609
+      alt: '御菓子処　ながゐ'
+      title: ''
+      width: 1280
+      height: 853
+  field_master:
+    -
+      value: 永井さん
+  field_openhours:
+    -
+      value: 10〜17時（月曜定休）
+  field_products:
+    -
+      value: '饅頭　団子（にゃんコツ饅頭）'
+  field_shopname:
+    -
+      value: ながゐ
+  field_shopnumber:
+    -
+      value: 2
+  field_shoptype:
+    -
+      entity: dc885ff0-31bd-4be1-886b-2240bc700bc2

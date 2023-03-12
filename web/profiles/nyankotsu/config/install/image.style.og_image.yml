@@ -1,0 +1,22 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: og_image
+label: 'OG image'
+effects:
+  6e708651-21bc-4c8e-afa9-e7e3d0ac5295:
+    uuid: 6e708651-21bc-4c8e-afa9-e7e3d0ac5295
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 1200
+      height: 630
+      anchor: center-center
+  002b2199-9bc0-46b5-91de-e0f631881e3c:
+    uuid: 002b2199-9bc0-46b5-91de-e0f631881e3c
+    id: image_scale
+    weight: -10
+    data:
+      width: 1200
+      height: null
+      upscale: true

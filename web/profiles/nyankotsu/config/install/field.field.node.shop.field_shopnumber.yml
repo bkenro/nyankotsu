@@ -1,0 +1,22 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shopnumber
+    - node.type.shop
+id: node.shop.field_shopnumber
+field_name: field_shopnumber
+entity_type: node
+bundle: shop
+label: 店舗No.
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

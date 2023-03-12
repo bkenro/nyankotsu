@@ -1,0 +1,141 @@
+{
+    "name": "drupal/recommended-project",
+    "description": "Project template for Drupal 9 projects with a relocated document root",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "bower-asset/colorbox": "^1.6",
+        "bower-asset/dompurify": "^2.3",
+        "composer/installers": "^1.9",
+        "drupal/addtoany": "^2.0",
+        "drupal/admin_toolbar": "^3.1",
+        "drupal/back_to_top": "^3.0",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/block_class": "^2.0",
+        "drupal/codesnippet": "^1.7",
+        "drupal/coffee": "^1.2",
+        "drupal/colorbox": "^2.0",
+        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-project-message": "^10",
+        "drupal/core-recommended": "^10",
+        "drupal/ctools": "^4.0",
+        "drupal/d8w3css": "^2.0",
+        "drupal/default_content": "^2.0@alpha",
+        "drupal/devel": "^5.0",
+        "drupal/easy_breadcrumb": "^2.0",
+        "drupal/editor_advanced_link": "^2.1",
+        "drupal/field_group": "^3.4",
+        "drupal/field_group_table": "^1.0",
+        "drupal/google_tag": "^1.5",
+        "drupal/imce": "^3.0",
+        "drupal/metatag": "^1.19",
+        "drupal/pathauto": "^1.10",
+        "drupal/redirect": "^1.7",
+        "drupal/schema_metatag": "^2.3",
+        "drupal/token": "^1.10",
+        "drupal/webprofiler": "^10.0",
+        "drupal/xmlsitemap": "^1.2",
+        "drush/drush": "^11.0",
+        "oomphinc/composer-installers-extender": "^2.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "RC",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "oomphinc/composer-installers-extender": true,
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "patches": {
+            "drupal/field_group_table": {
+                "Automated Drupal 10 compatibility fixes (3287516)": "https://www.drupal.org/files/issues/2022-06-15/field_group_table.1.x-dev.rector.patch"
+            }
+        },
+
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "installer-types": [
+            "npm-asset",
+            "bower-asset"
+        ],
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/DOMPurify": ["bower-asset/dompurify"],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:npm-asset",
+                "type:bower-asset"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        }
+    }
+}

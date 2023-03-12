@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2bfd7917-dc97-4339-a797-76d5ae882068
+  bundle: basic
+  default_langcode: ja
+  depends:
+    73a4c9a1-51b1-4350-8588-ec19b4a3352b: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: ボトム四段組の2
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"w3-col s7 m9 w3-hide-large\">\r\n<div class=\"w3-margin-right w3-large\">くま</div>\r\n\r\n<div class=\"w3-margin-right w3-small w3-text-dark-gray\">経験豊富なベテランの技術部長。無口だけれど思いやりの熊。</div>\r\n</div>\r\n\r\n<div class=\"w3-col s5 m3 l12\"><img alt=\"くま\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-73a4c9a1-51b1-4350-8588-ec19b4a3352b\" data-insert-attach=\"{&quot;id&quot;:&quot;73a4c9a1-51b1-4350-8588-ec19b4a3352b&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}\" data-insert-class=\"\" data-insert-type=\"image\" height=\"426\" src=\"/sites/default/files/2022-10/face-bear.jpg\" width=\"640\" /></div>\r\n\r\n<div class=\"w3-col w3-margin-top w3-hide-small w3-hide-medium\">\r\n<div class=\"w3-center\">くま</div>\r\n\r\n<div class=\"w3-small w3-text-dark-gray\">経験豊富なベテランの技術部長。無口だけれど思いやりの熊。</div>\r\n</div>\r\n"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 73a4c9a1-51b1-4350-8588-ec19b4a3352b
+      alt: くま
+      title: ''
+      width: 640
+      height: 426

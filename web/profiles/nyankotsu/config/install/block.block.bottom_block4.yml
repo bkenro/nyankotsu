@@ -1,0 +1,27 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+id: bottom_block4
+theme: sqw3css
+region: bottom_forth
+weight: 0
+provider: null
+plugin: 'block_content:96993c0a-ed1a-4c9e-ae2a-c066fdf1f226'
+settings:
+  id: 'block_content:96993c0a-ed1a-4c9e-ae2a-c066fdf1f226'
+  label: ボトム四段組の4
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

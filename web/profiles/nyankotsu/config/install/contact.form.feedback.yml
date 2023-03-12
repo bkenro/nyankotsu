@@ -1,0 +1,11 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: feedback
+label: お問合せ
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: メッセージが送信されました。
+redirect: ''

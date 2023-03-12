@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: ymd_dow
+label: 年月日と曜日
+locked: false
+pattern: 'Y/m/d (D)'

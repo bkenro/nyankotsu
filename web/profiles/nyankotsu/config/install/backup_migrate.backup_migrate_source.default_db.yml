@@ -1,0 +1,8 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: default_db
+label: 'デフォルト Drupal データベース'
+type: DefaultDB
+config:
+  name: 'Default Drupal Database'

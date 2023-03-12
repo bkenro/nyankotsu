@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 79c740e5-3a4f-4bad-8b6f-38e3aae348fd
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: welcome.jpg
+  uri:
+    -
+      value: 'public://2022-10/welcome_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 599578
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1666232386

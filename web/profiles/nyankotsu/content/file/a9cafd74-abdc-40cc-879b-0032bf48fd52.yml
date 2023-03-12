@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a9cafd74-abdc-40cc-879b-0032bf48fd52
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: eternity.jpg
+  uri:
+    -
+      value: 'public://2022-10/eternity_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 19283
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1665411967

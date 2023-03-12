@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c60548ca-78e4-40cf-8b6d-dc07f4526484
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: r-o-FFA8yd4OynY-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/r-o-FFA8yd4OynY-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 137320
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669537818

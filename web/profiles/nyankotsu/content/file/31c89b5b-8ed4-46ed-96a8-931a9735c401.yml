@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 31c89b5b-8ed4-46ed-96a8-931a9735c401
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: adam-winger-FkAZqQJTbXM-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/adam-winger-FkAZqQJTbXM-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 94487
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669534496

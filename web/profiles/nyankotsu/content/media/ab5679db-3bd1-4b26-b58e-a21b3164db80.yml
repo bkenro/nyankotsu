@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ab5679db-3bd1-4b26-b58e-a21b3164db80
+  bundle: banner_image
+  default_langcode: ja
+  depends:
+    7ded3079-79c7-41a5-8e59-3728f2acc076: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: コンタクト
+  created:
+    -
+      value: 1666163876
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 7ded3079-79c7-41a5-8e59-3728f2acc076
+      alt: コンタクト
+      title: ''
+      width: 640
+      height: 426

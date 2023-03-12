@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d0915f7e-3508-4497-9858-b474509c5e41
+  bundle: shop
+  default_langcode: ja
+  depends:
+    e4d77ebb-2065-49d9-a2e5-83f18e90455a: file
+    64b4d73d-fc78-456a-8b6c-456bbc1d8b2c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'うどん・そば　たかやなぎ　'
+  created:
+    -
+      value: 1669529387
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/1
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: e4d77ebb-2065-49d9-a2e5-83f18e90455a
+      alt: 'うどん・そば　たかやなぎ'
+      title: ''
+      width: 1280
+      height: 960
+  field_master:
+    -
+      value: 高柳さん
+  field_openhours:
+    -
+      value: 11〜20時（月曜定休）
+  field_products:
+    -
+      value: うどん・そば
+  field_shopname:
+    -
+      value: 'うどん・そば　たかやなぎ'
+  field_shopnumber:
+    -
+      value: 1
+  field_shoptype:
+    -
+      entity: 64b4d73d-fc78-456a-8b6c-456bbc1d8b2c

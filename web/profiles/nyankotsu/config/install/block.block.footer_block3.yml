@@ -1,0 +1,25 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+third_party_settings:
+  block_class:
+    classes: w3-small
+id: footer_block3
+theme: sqw3css
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:babe213b-d722-4619-b414-dbe771a653eb'
+settings:
+  id: 'block_content:babe213b-d722-4619-b414-dbe771a653eb'
+  label: フッター三段組の右
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

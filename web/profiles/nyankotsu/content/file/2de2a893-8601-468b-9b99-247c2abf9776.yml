@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2de2a893-8601-468b-9b99-247c2abf9776
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: amanda-lim-2_VyVeMGD04-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/amanda-lim-2_VyVeMGD04-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 68866
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669534251

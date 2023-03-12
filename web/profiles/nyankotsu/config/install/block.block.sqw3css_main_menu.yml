@@ -1,0 +1,25 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+id: sqw3css_main_menu
+theme: sqw3css
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: メインナビゲーション
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

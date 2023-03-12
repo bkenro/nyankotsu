@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: 4vXFu1xAuZ1nftmnnfowGaQ0yrARIcSvgyG5T7cqg04
+label: 'http://sqbase.internal'
+context:
+  language: ja

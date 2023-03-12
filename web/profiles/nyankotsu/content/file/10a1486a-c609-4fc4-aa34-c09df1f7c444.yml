@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 10a1486a-c609-4fc4-aa34-c09df1f7c444
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jakayla-toney-ixvemFc5oU8-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/jakayla-toney-ixvemFc5oU8-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 100148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669537666

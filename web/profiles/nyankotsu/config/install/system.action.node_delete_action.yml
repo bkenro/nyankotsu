@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node_delete_action
+label: コンテンツを削除
+type: node
+plugin: 'entity:delete_action:node'
+configuration: {  }

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: a2e01f8f-52cc-4841-b70e-f689fd602712
+  bundle: basic
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: フッター三段組の中央
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<h3>オススメ Drupal 書籍</h3>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0922326NR\" target=\"_blank\" title=\"Drupal 9 Web開発ことはじめ\">Drupal 9 の薄い本</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B09NBN6934\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集\">Drupal 9 おいしいレシピ集</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0B3MJC59Q\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集2\">Drupal 9 おいしいレシピ集2</a></li>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://www.amazon.co.jp/dp/B0BDGFDWDR\" target=\"_blank\" title=\"Drupal 9 おいしいレシピ集3\">Drupal 9 おいしいレシピ集3</a></li>\r\n</ul>\r\n"
+      format: full_html
+      summary: ''

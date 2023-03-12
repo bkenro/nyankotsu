@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cabcbecd-7398-437e-bcbc-49403226fae6
+  bundle: shop
+  default_langcode: ja
+  depends:
+    b132cb28-8ccc-4448-8704-789dabfe40bb: file
+    8a5e5e3d-515d-434d-9425-e63738906afe: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 小松電器
+  created:
+    -
+      value: 1669537133
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/19
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: b132cb28-8ccc-4448-8704-789dabfe40bb
+      alt: 小松電器
+      title: ''
+      width: 1280
+      height: 853
+  field_master:
+    -
+      value: 小松さん
+  field_openhours:
+    -
+      value: 10〜18時（木曜定休）
+  field_products:
+    -
+      value: '家電販売　取付工事'
+  field_shopname:
+    -
+      value: 小松電器
+  field_shopnumber:
+    -
+      value: 19
+  field_shoptype:
+    -
+      entity: 8a5e5e3d-515d-434d-9425-e63738906afe

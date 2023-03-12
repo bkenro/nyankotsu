@@ -1,0 +1,25 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - block_class
+    - system
+  theme:
+    - drupal8_w3css_theme
+id: drupal8_w3css_theme_footer
+theme: drupal8_w3css_theme
+region: footer_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

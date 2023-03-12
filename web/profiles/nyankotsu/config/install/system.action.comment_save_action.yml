@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_save_action
+label: コメントの保存
+type: comment
+plugin: 'entity:save_action:comment'
+configuration: {  }

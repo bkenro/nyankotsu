@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3f652610-91f4-48b0-8996-ca241ef7f70c
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: couple.jpg
+  uri:
+    -
+      value: 'public://2022-10/couple_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 25820
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1665408371

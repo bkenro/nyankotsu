@@ -1,0 +1,32 @@
+langcode: ja
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+third_party_settings:
+  block_class:
+    classes: submenu-sidebar-block
+id: features_menu
+theme: sqw3css
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 特徴
+  label_display: visible
+  provider: system
+  level: 2
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/features\r\n/features/*"

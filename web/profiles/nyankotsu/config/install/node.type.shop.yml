@@ -1,0 +1,16 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 店舗
+type: shop
+description: 商店街の各店舗に関する情報を掲載するためのコンテンツタイプです。
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

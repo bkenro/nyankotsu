@@ -1,0 +1,19 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+id: sqw3css_local_actions
+theme: sqw3css
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: プライマリ管理アクション
+  label_display: '0'
+  provider: core
+visibility: {  }

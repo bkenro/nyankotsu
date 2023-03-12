@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f75a801f-7b01-4541-af7c-6e3adae4dd53
+  bundle: basic
+  default_langcode: ja
+  depends:
+    43c97c7c-8d73-4515-aa14-0692f2459273: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: にゃんコツ祭り情報
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<h3>○月○日開催！</h3>\r\n\r\n<p><img alt=\"にゃんコツ祭り\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-43c97c7c-8d73-4515-aa14-0692f2459273\" height=\"206\" src=\"/sites/default/files/2022-11/Thumbnail-CL-EVT-FS-027.png\" width=\"180\" /></p>\r\n\r\n<p>もうすぐにゃんコツ祭りです。皆様お誘い合わせのうえ、遊びに来てください。</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 43c97c7c-8d73-4515-aa14-0692f2459273
+      alt: にゃんコツ祭り
+      title: ''
+      width: 180
+      height: 206

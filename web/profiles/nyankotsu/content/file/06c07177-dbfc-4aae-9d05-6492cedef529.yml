@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 06c07177-dbfc-4aae-9d05-6492cedef529
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jarrod-reed-_I4sDxMK2ls-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/jarrod-reed-_I4sDxMK2ls-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 122687
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669530099

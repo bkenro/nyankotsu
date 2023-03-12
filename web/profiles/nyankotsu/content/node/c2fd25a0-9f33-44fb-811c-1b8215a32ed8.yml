@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c2fd25a0-9f33-44fb-811c-1b8215a32ed8
+  bundle: shop
+  default_langcode: ja
+  depends:
+    c60548ca-78e4-40cf-8b6d-dc07f4526484: file
+    41a5554e-cd0e-4225-bbda-41c42a827620: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ひめの内科クリニック
+  created:
+    -
+      value: 1669537689
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/22
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: c60548ca-78e4-40cf-8b6d-dc07f4526484
+      alt: ひめの内科クリニック
+      title: ''
+      width: 1280
+      height: 960
+  field_master:
+    -
+      value: 姫野さん
+  field_openhours:
+    -
+      value: 8〜19時（土日祝休み）
+  field_products:
+    -
+      value: 内科
+  field_shopname:
+    -
+      value: ひめの内科クリニック
+  field_shopnumber:
+    -
+      value: 22
+  field_shoptype:
+    -
+      entity: 41a5554e-cd0e-4225-bbda-41c42a827620

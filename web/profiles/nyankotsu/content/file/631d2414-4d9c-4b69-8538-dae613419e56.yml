@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 631d2414-4d9c-4b69-8538-dae613419e56
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: block-parts.jpg
+  uri:
+    -
+      value: 'public://2022-10/block-parts_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38879
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1666177126

@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a1558a7a-8763-46aa-bb48-59c0bac376a9
+  bundle: shop
+  default_langcode: ja
+  depends:
+    10e199f3-7073-44dc-9394-455b79f27dbd: file
+    64b4d73d-fc78-456a-8b6c-456bbc1d8b2c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '居酒屋　天狗'
+  created:
+    -
+      value: 1669533923
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/14
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 10e199f3-7073-44dc-9394-455b79f27dbd
+      alt: '居酒屋　天狗'
+      title: ''
+      width: 1280
+      height: 853
+  field_master:
+    -
+      value: 常盤さん
+  field_openhours:
+    -
+      value: 11〜14時、18〜23時（水曜定休）
+  field_products:
+    -
+      value: 焼き鳥
+  field_shopname:
+    -
+      value: 天狗
+  field_shopnumber:
+    -
+      value: 14
+  field_shoptype:
+    -
+      entity: 64b4d73d-fc78-456a-8b6c-456bbc1d8b2c

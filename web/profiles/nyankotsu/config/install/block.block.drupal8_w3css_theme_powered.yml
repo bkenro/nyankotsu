@@ -1,0 +1,20 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - drupal8_w3css_theme
+id: drupal8_w3css_theme_powered
+theme: drupal8_w3css_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

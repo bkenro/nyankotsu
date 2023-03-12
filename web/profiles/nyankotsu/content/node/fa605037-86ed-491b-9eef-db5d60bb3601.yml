@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fa605037-86ed-491b-9eef-db5d60bb3601
+  bundle: shop
+  default_langcode: ja
+  depends:
+    786f340b-0e92-48f0-a10b-9944e37eb897: file
+    64b4d73d-fc78-456a-8b6c-456bbc1d8b2c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sole italiano'
+  created:
+    -
+      value: 1669533693
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/13
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 786f340b-0e92-48f0-a10b-9944e37eb897
+      alt: 'Sole italiano'
+      title: ''
+      width: 1280
+      height: 854
+  field_master:
+    -
+      value: 出室さん
+  field_openhours:
+    -
+      value: 11〜14時、18〜21時（水曜定休）
+  field_products:
+    -
+      value: パスタ
+  field_shopname:
+    -
+      value: 'Sole italiano'
+  field_shopnumber:
+    -
+      value: 13
+  field_shoptype:
+    -
+      entity: 64b4d73d-fc78-456a-8b6c-456bbc1d8b2c

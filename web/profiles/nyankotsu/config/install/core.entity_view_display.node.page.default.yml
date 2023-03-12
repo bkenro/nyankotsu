@@ -1,0 +1,33 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_banner
+    - field.field.node.page.field_category
+    - node.type.page
+  module:
+    - text
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_banner: true
+  field_category: true
+  langcode: true

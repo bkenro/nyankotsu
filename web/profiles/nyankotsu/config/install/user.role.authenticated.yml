@@ -1,0 +1,25 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - shortcut
+    - system
+id: authenticated
+label: 認証済みユーザー
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view media'

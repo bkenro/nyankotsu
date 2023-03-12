@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: twitter_card
+label: 'Twitter Card Summary'
+effects:
+  da638c0c-5131-4426-9d0f-48c6f1808a6e:
+    uuid: da638c0c-5131-4426-9d0f-48c6f1808a6e
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 144
+      height: 144
+      anchor: center-center

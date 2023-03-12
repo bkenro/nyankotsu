@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 899f079b-d9fe-4481-bf88-a26efa2e81bf
+  bundle: shop
+  default_langcode: ja
+  depends:
+    b664f2e3-39ed-4fe4-ad57-7c2158970356: file
+    44f95737-ad3c-4a70-8be8-ea9db7c2600c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: クロワッサン
+  created:
+    -
+      value: 1669532618
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/10
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: b664f2e3-39ed-4fe4-ad57-7c2158970356
+      alt: クロワッサン
+      title: ''
+      width: 1280
+      height: 854
+  field_master:
+    -
+      value: 萩原さん
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: 'クロワッサン　他パン'
+  field_shopname:
+    -
+      value: クロワッサン
+  field_shopnumber:
+    -
+      value: 10
+  field_shoptype:
+    -
+      entity: 44f95737-ad3c-4a70-8be8-ea9db7c2600c

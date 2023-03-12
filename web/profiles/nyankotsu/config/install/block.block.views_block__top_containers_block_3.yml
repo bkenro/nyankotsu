@@ -1,0 +1,29 @@
+langcode: ja
+status: false
+dependencies:
+  config:
+    - views.view.top_containers
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - sqw3css
+id: views_block__top_containers_block_3
+theme: sqw3css
+region: top_third
+weight: 0
+provider: null
+plugin: 'views_block:top_containers-block_3'
+settings:
+  id: 'views_block:top_containers-block_3'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

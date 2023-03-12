@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3a284414-36c5-4578-bd78-0e2337ac086c
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fikri-rasyid-OG-UiZB9xMg-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/fikri-rasyid-OG-UiZB9xMg-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 212484
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669537925

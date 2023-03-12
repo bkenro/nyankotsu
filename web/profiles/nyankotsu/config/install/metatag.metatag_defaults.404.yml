@@ -1,0 +1,8 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: '404'
+label: '404 ページが見つかりません'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

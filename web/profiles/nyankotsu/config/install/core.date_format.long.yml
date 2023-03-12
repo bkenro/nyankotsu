@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: long
+label: デフォルトの長い日付
+locked: false
+pattern: 'Y年n月j日(l) - H:i'

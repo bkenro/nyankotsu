@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 786f340b-0e92-48f0-a10b-9944e37eb897
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: victoria-alexandrova-n56ZKeW9bVM-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/victoria-alexandrova-n56ZKeW9bVM-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 89193
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669533841

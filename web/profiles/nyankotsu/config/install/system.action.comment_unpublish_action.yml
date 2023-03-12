@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_unpublish_action
+label: コメントを非公開にする
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

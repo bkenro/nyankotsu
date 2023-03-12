@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 60569a4c-d7a9-4716-bca8-03835746cc2d
+  bundle: banner_image
+  default_langcode: ja
+  depends:
+    9e1ba033-ff8a-4c26-9622-7a3cc62744e9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: シャツとネクタイ
+  created:
+    -
+      value: 1665408573
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 9e1ba033-ff8a-4c26-9622-7a3cc62744e9
+      alt: シャツとネクタイの写真
+      title: ''
+      width: 1280
+      height: 853

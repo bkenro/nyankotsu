@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dbb71f90-787e-45d7-9e55-eaa44a8619d8
+  bundle: shop
+  default_langcode: ja
+  depends:
+    a7cec29b-cc32-4293-a83a-a661c23ef5ea: file
+    44f95737-ad3c-4a70-8be8-ea9db7c2600c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 佐藤園
+  created:
+    -
+      value: 1669534841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/18
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: a7cec29b-cc32-4293-a83a-a661c23ef5ea
+      alt: 佐藤園
+      title: ''
+      width: 1280
+      height: 853
+  field_master:
+    -
+      value: 佐藤さん
+  field_openhours:
+    -
+      value: 10〜17時（木曜定休）
+  field_products:
+    -
+      value: '日本茶葉　海苔'
+  field_shopname:
+    -
+      value: 佐藤園
+  field_shopnumber:
+    -
+      value: 18
+  field_shoptype:
+    -
+      entity: 44f95737-ad3c-4a70-8be8-ea9db7c2600c

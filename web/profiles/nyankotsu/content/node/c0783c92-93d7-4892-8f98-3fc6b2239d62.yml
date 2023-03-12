@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0783c92-93d7-4892-8f98-3fc6b2239d62
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 酒倉
+  created:
+    -
+      value: 1669278181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  body:
+    -
+      value: "<table class=\"w3-table-all\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th>店名</th>\r\n\t\t\t<td>酒倉</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th>主な取り扱い</th>\r\n\t\t\t<td>希少な日本酒　飲食店への卸</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th>店主</th>\r\n\t\t\t<td>酒倉　哲夫</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th>営業時間</th>\r\n\t\t\t<td>10〜20時（木曜定休）</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n"
+      format: full_html
+      summary: ''

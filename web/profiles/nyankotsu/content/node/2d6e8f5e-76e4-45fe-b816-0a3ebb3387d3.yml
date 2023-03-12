@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2d6e8f5e-76e4-45fe-b816-0a3ebb3387d3
+  bundle: shop
+  default_langcode: ja
+  depends:
+    31c89b5b-8ed4-46ed-96a8-931a9735c401: file
+    41a5554e-cd0e-4225-bbda-41c42a827620: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'beauty salon mikako'
+  created:
+    -
+      value: 1669534369
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shops/16
+      langcode: ja
+      pathauto: 1
+  field_image:
+    -
+      entity: 31c89b5b-8ed4-46ed-96a8-931a9735c401
+      alt: 'beauty salon mikako'
+      title: ''
+      width: 1280
+      height: 854
+  field_master:
+    -
+      value: ミカさん
+  field_openhours:
+    -
+      value: 8〜19時（月曜定休）
+  field_products:
+    -
+      value: 'ヘアカット　パーマ　カラーリング'
+  field_shopname:
+    -
+      value: 'beauty salon mikako'
+  field_shopnumber:
+    -
+      value: 16
+  field_shoptype:
+    -
+      entity: 41a5554e-cd0e-4225-bbda-41c42a827620

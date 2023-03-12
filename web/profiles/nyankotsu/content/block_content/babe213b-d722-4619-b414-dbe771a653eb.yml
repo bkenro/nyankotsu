@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: babe213b-d722-4619-b414-dbe771a653eb
+  bundle: basic
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: フッター三段組の右
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<h3><a class=\"w3-hover-text-blue\" href=\"https://github.com/bkenro/sqbase\" rel=\"noopener\" target=\"_blank\">SQbase</a></h3>\r\n\r\n<p>inspired by</p>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://drupal-meetup-toyota.connpass.com/\" rel=\"noopener\" target=\"_blank\">Drupal Meetup 豊田</a></li>\r\n</ul>\r\n\r\n<p>brought to you by</p>\r\n\r\n<ul>\r\n\t<li><a class=\"w3-hover-text-blue\" href=\"https://synergyquest.jp/\" target=\"_blank\">シナジークエスト</a></li>\r\n</ul>\r\n"
+      format: full_html
+      summary: ''

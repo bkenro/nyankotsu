@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: カテゴリ
+vid: category
+description: サイト上のページを分類するにはカテゴリが使用できます。
+weight: 0

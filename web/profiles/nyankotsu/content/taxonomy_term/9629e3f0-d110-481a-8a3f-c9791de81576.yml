@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9629e3f0-d110-481a-8a3f-c9791de81576
+  bundle: category
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: トップ三段中央
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0

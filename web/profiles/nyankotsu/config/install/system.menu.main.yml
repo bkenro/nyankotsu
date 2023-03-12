@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: main
+label: 'Main navigation'
+description: サイトセクションのリンク
+locked: true

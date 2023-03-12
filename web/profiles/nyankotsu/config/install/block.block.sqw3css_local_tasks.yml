@@ -1,0 +1,21 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - sqw3css
+id: sqw3css_local_tasks
+theme: sqw3css
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: タブ
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

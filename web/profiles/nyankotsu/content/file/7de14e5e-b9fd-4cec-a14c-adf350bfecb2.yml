@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7de14e5e-b9fd-4cec-a14c-adf350bfecb2
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cafe_tables_interior_mood.jpg
+  uri:
+    -
+      value: 'public://2022-11/cafe_tables_interior_mood.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58007
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669524875

@@ -1,0 +1,20 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - block_class
+    - help
+  theme:
+    - drupal8_w3css_theme
+id: drupal8_w3css_theme_help
+theme: drupal8_w3css_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

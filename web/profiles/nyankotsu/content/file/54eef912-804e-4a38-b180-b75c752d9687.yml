@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 54eef912-804e-4a38-b180-b75c752d9687
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nichika-yoshida-lQ29SGXHyXA-unsplash.jpg
+  uri:
+    -
+      value: 'public://2022-11/nichika-yoshida-lQ29SGXHyXA-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115368
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669525083

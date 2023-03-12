@@ -1,0 +1,32 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_class
+    - system
+  theme:
+    - sqw3css
+third_party_settings:
+  block_class:
+    classes: w3-container
+id: useraccountmenu
+theme: sqw3css
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: アカウント
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,24 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: member
+label: 'Member profile'
+description: サイトのメンバー用の設定
+conf:
+  usertab: false
+  extensions: 'jpg png gif'
+  maxsize: 2.0
+  quota: 50.0
+  maxwidth: 1024
+  maxheight: 1024
+  replace: 0
+  thumbnail_style: ''
+  thumbnail_grid_style: false
+  ignore_usage: false
+  folders:
+    -
+      path: 'users/user[user:uid]'
+      permissions:
+        browse_files: true
+        upload_files: true
+        delete_files: true
