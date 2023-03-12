@@ -1,0 +1,201 @@
+sqw3css-global:
+  version: VERSION
+  css:
+    theme:
+      css/sqw3css-style.css: {}
+  js:
+    js/jquery.matchHeight.js: {}
+    js/sqw3css-script.js: {}
+
+# Default Japanese Font
+d8w3css-gfex-ja-sans-serif:
+  Version: VERSION
+  css:
+    base:
+      fonts/css/d8w3css-gfex-ja-sans-serif.css: { }
+
+# Google Fonts - Global.
+d8w3css-gfex-biz-udgothic:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-biz-udgothic.css: { }
+d8w3css-gfex-kiwi-maru:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-kiwi-maru.css: { }
+d8w3css-gfex-kosugi:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kosugi&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-kosugi.css: { }
+d8w3css-gfex-m-plus-1:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-m-plus-1.css: { }
+d8w3css-gfex-noto-sans:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-noto-sans.css: { }
+d8w3css-gfex-sawarabi-gothic:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-sawarabi-gothic.css: { }
+d8w3css-gfex-zen-maru-gothic:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-zen-maru-gothic.css: { }
+d8w3css-gfex-noto-serif:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-noto-serif.css: { }
+d8w3css-gfex-klee-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Klee+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-klee-one.css: { }
+d8w3css-gfex-shippori-mincho:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-shippori-mincho.css: { }
+d8w3css-gfex-zen-old-mincho:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-zen-old-mincho.css: { }
+d8w3css-gfex-biz-udmincho:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-biz-udmincho.css: { }
+d8w3css-gfex-hina-mincho:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfex-hina-mincho.css: { }
+
+# Google Fonts - Heading.
+d8w3css-gfhex-shippori-antique:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-shippori-antique.css: { }
+d8w3css-gfhex-mochiy-pop-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-mochiy-pop-one.css: { }
+d8w3css-gfhex-zen-antique:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-zen-antique.css: { }
+d8w3css-gfhex-rampart-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Rampart+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-rampart-one.css: { }
+d8w3css-gfhex-rocknroll-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-rocknroll-one.css: { }
+d8w3css-gfhex-reggae-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Reggae+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-reggae-one.css: { }
+d8w3css-gfhex-dela-gothic-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-dela-gothic-one.css: { }
+d8w3css-gfhex-yusei-magic:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-yusei-magic.css: { }
+d8w3css-gfhex-potta-one:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Potta+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-potta-one.css: { }
+d8w3css-gfhex-kaisei-tokumin:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-kaisei-tokumin.css: { }
+d8w3css-gfhex-stick:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Stick&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-gfhex-stick.css: { }
+
+# Google Fonts - Special.
+d8w3css-gfsex-new-tegomin:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-new-tegomin.css: { }
+d8w3css-gfsex-yuji-syuku:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-yuji-syuku.css: { }
+d8w3css-gfsex-dotgothic16:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=DotGothic16&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-dotgothic16.css: { }
+d8w3css-gfsex-m-plus-1-code:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-m-plus-1-code.css: { }
+d8w3css-gfsex-zen-kurenaido:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-zen-kurenaido.css: { }
+d8w3css-gfsex-hachi-maru-pop:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-gfsex-hachi-maru-pop.css: { }

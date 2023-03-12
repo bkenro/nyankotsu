@@ -1,0 +1,43 @@
+/* Add your css code here */
+
+.site-name,
+.site-name a,
+.site-slogan {
+  text-transform: none;
+}
+
+.node--view-mode-full .node__content .field--type-text-long,
+.node--view-mode-full .node__content .field--type-string-long, .node--view-mode-full .node__content .field--type-text-with-summary {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+a:hover>img.w3-image {
+  animation: none;
+}
+
+.submenu-sidebar-block .ul-parent > li {
+  display: list-item;
+  float: none;
+  padding-left: 0.8em;
+}
+
+.submenu-sidebar-block .ul-parent > li.active {
+  font-weight: bold;
+  list-style-type: none;
+  background-image: url(../chevron-right.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.field--name-body p:first-child,
+.field--name-body h3:first-child,
+.field--name-body h2:first-child,
+.views-element-container h2:first-child,
+.submenu-sidebar-block h2:first-child {
+  margin-top: 0;
+}
+
+.view .pager {
+  clear: both;
+}

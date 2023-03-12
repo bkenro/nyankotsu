@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * SQ W3CSS Sub-theme hooks implementation.
+ */
+
+function sqw3css_page_attachments_alter(array &$attachments) {
+
+  // Load google fonts locally - Global.
+  if (theme_get_setting('d8w3css_google_font_local') && theme_get_setting('d8w3css_site_gf')) {
+    $in_font = theme_get_setting('d8w3css_site_gf');
+		if (str_starts_with($in_font, 'sqw3css')) {
+			$current_ingf = 'sqw3css/d8w3css-gfin' . substr($in_font, 7);
+			$attachments['#attached']['library'][] = $current_ingf;
+		}
+  }
+  // Load fonts external - Global.
+  if (!theme_get_setting('d8w3css_google_font_local') && theme_get_setting('d8w3css_site_gf')) {
+    $ex_font = theme_get_setting('d8w3css_site_gf');
+		if (str_starts_with($ex_font, 'sqw3css')) {
+			$current_exgf = 'sqw3css/d8w3css-gfex' . substr($ex_font, 7);
+			$attachments['#attached']['library'][] = $current_exgf;
+		}
+  }
+
+  // Load google fonts locally - Heading.
+  if (theme_get_setting('d8w3css_google_font_local') && theme_get_setting('d8w3css_site_gfh')) {
+    $in_font_h = theme_get_setting('d8w3css_site_gfh');
+		if (str_starts_with($in_font_h, 'sqw3css')) {
+			$current_ingfh = 'sqw3css/d8w3css-gfhin' . substr($in_font_h, 7);
+	    $attachments['#attached']['library'][] = $current_ingfh;
+		}
+  }
+  // Load fonts external - Heading.
+  if (!theme_get_setting('d8w3css_google_font_local') && theme_get_setting('d8w3css_site_gfh')) {
+    $ex_font_h = theme_get_setting('d8w3css_site_gfh');
+		if (str_starts_with($ex_font_h, 'sqw3css')) {
+			$current_exgfh = 'sqw3css/d8w3css-gfhex' . substr($ex_font_h, 7);
+	    $attachments['#attached']['library'][] = $current_exgfh;
+		}
+  }
+
+  // Load special fonts' library.
+  if (theme_get_setting('d8w3css_site_gfs')) {
+    $ex_font_s = theme_get_setting('d8w3css_site_gfs');
+		if (str_starts_with($ex_font_s, 'sqw3css')) {
+			$current_exgfs = 'sqw3css/d8w3css-gfsex' . substr($ex_font_s, 7);
+	    $attachments['#attached']['library'][] = $current_exgfs;
+		}
+  }
+}
