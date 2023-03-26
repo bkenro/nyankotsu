@@ -3,6 +3,7 @@ sqw3css-global:
   css:
     theme:
       css/sqw3css-style.css: {}
+      css/local.css: {}
   js:
     js/jquery.matchHeight.js: {}
     js/sqw3css-script.js: {}

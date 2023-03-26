@@ -1,0 +1,4 @@
+/* にゃんコツ店舗一覧の写真サイズ調整 */
+.view-content .views-field-field-image a img {
+  width: auto;
+}
