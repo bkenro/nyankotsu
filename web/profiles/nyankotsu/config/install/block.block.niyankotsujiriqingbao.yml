@@ -2,7 +2,6 @@ langcode: ja
 status: true
 dependencies:
   module:
-    - block_class
     - system
   theme:
     - sqw3css

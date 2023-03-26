@@ -21,7 +21,6 @@ third_party_settings:
   field_group:
     group_shopinfo:
       children:
-        - field_shopnumber
         - field_shopname
         - field_products
         - field_master
@@ -30,7 +29,7 @@ third_party_settings:
       label: ''
       parent_name: ''
       region: content
-      weight: 1
+      weight: 2
       format_type: field_group_table
       format_settings:
         classes: ''
@@ -80,7 +79,7 @@ third_party_settings:
       label: 写真
       parent_name: ''
       region: content
-      weight: 3
+      weight: 1
       format_type: html_element
       format_settings:
         classes: w3-panel
@@ -148,15 +147,6 @@ content:
     third_party_settings: {  }
     weight: 11
     region: content
-  field_shopnumber:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 10
-    region: content
   field_shoptype:
     type: entity_reference_label
     label: inline
@@ -168,8 +158,9 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
 hidden:
   addtoany: true
+  field_shopnumber: true
   langcode: true

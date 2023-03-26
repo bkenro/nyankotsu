@@ -1,8 +1,6 @@
 langcode: ja
 status: false
 dependencies:
-  module:
-    - block_class
   theme:
     - sqw3css
 id: bottom_block1

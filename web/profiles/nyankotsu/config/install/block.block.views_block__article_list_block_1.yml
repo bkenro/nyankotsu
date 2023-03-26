@@ -4,7 +4,6 @@ dependencies:
   config:
     - views.view.article_list
   module:
-    - block_class
     - node
     - views
   theme:

@@ -1,8 +1,6 @@
 langcode: ja
 status: true
 dependencies:
-  module:
-    - block_class
   theme:
     - sqw3css
 id: sqw3css_local_tasks

@@ -2,7 +2,6 @@ langcode: ja
 status: true
 dependencies:
   module:
-    - block_class
     - help
   theme:
     - drupal8_w3css_theme

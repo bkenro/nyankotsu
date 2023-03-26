@@ -1,8 +1,6 @@
 langcode: ja
 status: true
 dependencies:
-  module:
-    - block_class
   theme:
     - drupal8_w3css_theme
 id: drupal8_w3css_theme_page_title

@@ -4,7 +4,6 @@ dependencies:
   config:
     - system.menu.main
   module:
-    - block_class
     - system
   theme:
     - drupal8_w3css_theme
