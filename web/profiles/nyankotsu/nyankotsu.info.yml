@@ -62,6 +62,7 @@ install:
   - shortcut
   - system
   - taxonomy
+  - telephone
   - text
   - token
   - toolbar

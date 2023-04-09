@@ -6,15 +6,18 @@ dependencies:
     - field.field.node.shop.field_image
     - field.field.node.shop.field_master
     - field.field.node.shop.field_openhours
+    - field.field.node.shop.field_phone
     - field.field.node.shop.field_products
     - field.field.node.shop.field_shopname
     - field.field.node.shop.field_shopnumber
     - field.field.node.shop.field_shoptype
+    - field.field.node.shop.field_url
     - image.style.large
     - node.type.shop
   module:
     - field_group
     - image
+    - link
     - text
     - user
 third_party_settings:
@@ -131,6 +134,13 @@ content:
     third_party_settings: {  }
     weight: 14
     region: content
+  field_phone:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
   field_products:
     type: string
     label: inline
@@ -154,6 +164,18 @@ content:
       link: false
     third_party_settings: {  }
     weight: 15
+    region: content
+  field_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 16
     region: content
   links:
     settings: {  }

@@ -7,10 +7,12 @@ dependencies:
     - field.field.node.shop.field_image
     - field.field.node.shop.field_master
     - field.field.node.shop.field_openhours
+    - field.field.node.shop.field_phone
     - field.field.node.shop.field_products
     - field.field.node.shop.field_shopname
     - field.field.node.shop.field_shopnumber
     - field.field.node.shop.field_shoptype
+    - field.field.node.shop.field_url
     - node.type.shop
   module:
     - text
@@ -38,8 +40,10 @@ hidden:
   field_image: true
   field_master: true
   field_openhours: true
+  field_phone: true
   field_products: true
   field_shopname: true
   field_shopnumber: true
   field_shoptype: true
+  field_url: true
   langcode: true
