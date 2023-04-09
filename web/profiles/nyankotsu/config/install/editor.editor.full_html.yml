@@ -21,15 +21,16 @@ settings:
       - '|'
       - bulletedList
       - numberedList
-      - '|'
+      - '-'
       - blockQuote
       - drupalInsertImage
       - insertTable
+      - imce_image
+      - imce_link
+      - drupalMedia
       - horizontalLine
-      - '|'
       - heading
       - codeBlock
-      - '|'
       - sourceEditing
   plugins:
     ckeditor5_heading:
@@ -54,6 +55,8 @@ settings:
         - rel
         - target
         - title
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: false
   scheme: public

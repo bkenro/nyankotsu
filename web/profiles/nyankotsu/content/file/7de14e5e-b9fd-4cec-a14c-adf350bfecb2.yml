@@ -12,7 +12,7 @@ default:
       value: cafe_tables_interior_mood.jpg
   uri:
     -
-      value: 'public://2022-11/cafe_tables_interior_mood.jpg'
+      value: 'public://2022-11/cafe_tables_interior_mood_0.jpg'
   filemime:
     -
       value: image/jpeg

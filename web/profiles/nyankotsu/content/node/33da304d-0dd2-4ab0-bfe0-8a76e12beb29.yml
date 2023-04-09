@@ -47,6 +47,9 @@ default:
   field_master:
     -
       value: 馬場さん
+  field_phone:
+    -
+      value: 03-1111-2345
   field_products:
     -
       value: お守り、絵馬、神事
@@ -59,3 +62,8 @@ default:
   field_shoptype:
     -
       entity: 3d9823a4-2ae8-495c-b573-a4f11edba762
+  field_url:
+    -
+      uri: 'https://www.jinjahoncho.or.jp/'
+      title: 神社本庁
+      options: {  }

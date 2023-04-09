@@ -12,7 +12,7 @@ default:
       value: couple.jpg
   uri:
     -
-      value: 'public://2022-10/couple_0.jpg'
+      value: 'public://2022-10/couple_0_0.jpg'
   filemime:
     -
       value: image/jpeg

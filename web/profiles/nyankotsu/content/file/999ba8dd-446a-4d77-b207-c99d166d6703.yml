@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 10a1486a-c609-4fc4-aa34-c09df1f7c444
+  uuid: 999ba8dd-446a-4d77-b207-c99d166d6703
   default_langcode: ja
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: jakayla-toney-ixvemFc5oU8-unsplash.jpg
+      value: shrine_history_01.jpg
   uri:
     -
-      value: 'public://2022-11/jakayla-toney-ixvemFc5oU8-unsplash_0.jpg'
+      value: 'public://2023-04/shrine_history_01.jpg'
   filemime:
     -
       value: image/jpeg
   filesize:
     -
-      value: 100148
+      value: 201571
   status:
     -
       value: true
   created:
     -
-      value: 1669537666
+      value: 1681039734

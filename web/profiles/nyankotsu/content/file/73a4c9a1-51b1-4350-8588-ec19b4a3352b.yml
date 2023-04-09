@@ -12,7 +12,7 @@ default:
       value: face-bear.jpg
   uri:
     -
-      value: 'public://2022-10/face-bear_0.jpg'
+      value: 'public://2022-10/face-bear_0_0.jpg'
   filemime:
     -
       value: image/jpeg

@@ -12,7 +12,7 @@ default:
       value: amanda-lim-2_VyVeMGD04-unsplash.jpg
   uri:
     -
-      value: 'public://2022-11/amanda-lim-2_VyVeMGD04-unsplash.jpg'
+      value: 'public://2022-11/amanda-lim-2_VyVeMGD04-unsplash_1.jpg'
   filemime:
     -
       value: image/jpeg

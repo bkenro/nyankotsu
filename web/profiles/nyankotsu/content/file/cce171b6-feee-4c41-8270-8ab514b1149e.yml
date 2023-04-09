@@ -12,7 +12,7 @@ default:
       value: cafe_canteen_dining_tables.jpg
   uri:
     -
-      value: 'public://2022-11/cafe_canteen_dining_tables.jpg'
+      value: 'public://2022-11/cafe_canteen_dining_tables_0.jpg'
   filemime:
     -
       value: image/jpeg

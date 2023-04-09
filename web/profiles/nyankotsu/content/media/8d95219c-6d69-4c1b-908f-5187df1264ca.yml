@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8d95219c-6d69-4c1b-908f-5187df1264ca
+  bundle: banner_image
+  default_langcode: ja
+  depends:
+    999ba8dd-446a-4d77-b207-c99d166d6703: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: shrine_history_01.jpg
+  created:
+    -
+      value: 1681039734
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 999ba8dd-446a-4d77-b207-c99d166d6703
+      alt: 猫骨神
+      title: ''
+      width: 1280
+      height: 998
