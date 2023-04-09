@@ -18,6 +18,7 @@ dependencies:
     - field_group
     - image
     - link
+    - telephone
     - text
     - user
 third_party_settings:
@@ -29,6 +30,8 @@ third_party_settings:
         - field_master
         - field_openhours
         - field_shoptype
+        - field_phone
+        - field_url
       label: ''
       parent_name: ''
       region: content
@@ -120,7 +123,7 @@ content:
     region: content
   field_master:
     type: string
-    label: inline
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -128,22 +131,23 @@ content:
     region: content
   field_openhours:
     type: string
-    label: inline
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     weight: 14
     region: content
   field_phone:
-    type: basic_string
+    type: telephone_link
     label: above
-    settings: {  }
+    settings:
+      title: ''
     third_party_settings: {  }
-    weight: 17
+    weight: 16
     region: content
   field_products:
     type: string
-    label: inline
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -151,7 +155,7 @@ content:
     region: content
   field_shopname:
     type: string
-    label: inline
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -159,7 +163,7 @@ content:
     region: content
   field_shoptype:
     type: entity_reference_label
-    label: inline
+    label: above
     settings:
       link: false
     third_party_settings: {  }
@@ -175,7 +179,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 16
+    weight: 17
     region: content
   links:
     settings: {  }
