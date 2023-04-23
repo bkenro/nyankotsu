@@ -76,7 +76,7 @@
 
         "drupal-scaffold": {
             "locations": {
-                "web-root": "web/"
+                "web-root": "./"
             }
         },
         "installer-types": [

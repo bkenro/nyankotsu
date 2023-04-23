@@ -21,3 +21,5 @@
 /drush/sites/prod.site.yml
 /misc
 /.vscode
+/.editorconfig
+/.gitattributes
