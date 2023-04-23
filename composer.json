@@ -33,6 +33,7 @@
         "drupal/core-composer-scaffold": "^10",
         "drupal/core-project-message": "^10",
         "drupal/core-recommended": "^10",
+        "drupal/core-vendor-hardening": "^10.0",
         "drupal/ctools": "^4.0",
         "drupal/d8w3css": "^2.0",
         "drupal/default_content": "^2.0@alpha",
@@ -64,7 +65,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "drupal/core-vendor-hardening": true
         }
     },
     "extra": {
