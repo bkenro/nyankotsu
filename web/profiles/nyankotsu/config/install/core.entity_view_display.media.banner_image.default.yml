@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.media.banner_image.field_media_image
+    - image.style.nyankotsu_banner
     - media.type.banner_image
   module:
     - image
@@ -16,7 +17,7 @@ content:
     label: visually_hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: nyankotsu_banner
       image_loading:
         attribute: lazy
     third_party_settings: {  }

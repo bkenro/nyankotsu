@@ -6,12 +6,12 @@ dependencies:
 id: shop_path
 label: 店舗パス
 type: 'canonical_entities:node'
-pattern: 'shops/[node:field_shopnumber]'
+pattern: 'shop/[node:field_shopnumber]'
 selection_criteria:
-  553f3d7e-20cb-4ef5-bb1a-4ac2e9c3eee6:
+  fcf9e5c0-e341-47e3-aa47-3dc24fac22fc:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 553f3d7e-20cb-4ef5-bb1a-4ac2e9c3eee6
+    uuid: fcf9e5c0-e341-47e3-aa47-3dc24fac22fc
     context_mapping:
       node: node
     bundles:

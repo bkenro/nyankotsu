@@ -586,7 +586,7 @@ display:
         metatag_display_extender:
           metatags: {  }
           tokenize: false
-      path: shops
+      path: shop
       menu:
         type: normal
         title: 店舗一覧

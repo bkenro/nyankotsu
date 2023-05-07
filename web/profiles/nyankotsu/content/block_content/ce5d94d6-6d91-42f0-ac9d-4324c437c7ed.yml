@@ -22,7 +22,7 @@ default:
       value: true
   body:
     -
-      value: "<div><img alt=\"昼の通り\" data-align=\"\" data-entity-type=\"file\" data-entity-uuid=\"insert-image-8ec0010f-a793-4390-b849-ab860d468c55\" data-insert-attach=\"{&quot;id&quot;:&quot;8ec0010f-a793-4390-b849-ab860d468c55&quot;,&quot;attributes&quot;:{&quot;alt&quot;:[&quot;alt&quot;,&quot;description&quot;],&quot;title&quot;:[&quot;title&quot;]}}\" data-insert-class=\"\" data-insert-type=\"image\" src=\"/sites/default/files/2022-11/daystreet.jpg\" /></div>\r\n"
+      value: '<drupal-media data-entity-type="media" data-entity-uuid="f636a1c4-d263-402d-9690-c8accb821104" data-align="center">&nbsp;</drupal-media>'
       format: full_html
       summary: ''
   field_image:
