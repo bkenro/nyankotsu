@@ -1,17 +1,17 @@
 local:
-  root: /var/www/nyankotsu
-  uri: http://nyankotsu.internal
+  root: /var/www/nyan/kotsu
+  uri: http://nyan.internal/kotsu
   command:
     sql:
       create:
         options:
           db-su: 'dba'
           db-su-pw: 'dba'
-          db-url: 'mysql://nyankotsu:nyankotsu@localhost/nyankotsu'
+          db-url: 'mysql://kotsu:kotsu@localhost/kotsu'
     site:
       install:
         options:
-          db-url: 'mysql://nyankotsu:nyankotsu@localhost/nyankotsu'
+          db-url: 'mysql://kotsu:kotsu@localhost/kotsu'
           locale: ja
           account-name: 'admin'
           account-pass: 'toyoda!2023'
