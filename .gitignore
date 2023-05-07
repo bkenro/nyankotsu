@@ -1,17 +1,17 @@
 # Ignore files generated from the pj template
 /vendor
-/web/.*
-/web/*.php
-/web/*.txt
-/web/example.gitignore
-/web/web.config
-/web/core
-/web/libraries
-/web/modules/contrib
-/web/modules/README.txt
-/web/themes/contrib
-/web/themes/README.txt
-/web/sites
+/.*
+/*.php
+/*.txt
+/example.gitignore
+/web.config
+/core
+/libraries
+/modules/contrib
+/modules/README.txt
+/themes/contrib
+/themes/README.txt
+/sites
 
 # Ignore user generated files
 /private
