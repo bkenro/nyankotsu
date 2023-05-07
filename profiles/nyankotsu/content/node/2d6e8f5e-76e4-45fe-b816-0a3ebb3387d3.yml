@@ -34,7 +34,7 @@ default:
       value: true
   path:
     -
-      alias: /shops/16
+      alias: /shop/16
       langcode: ja
       pathauto: 1
   field_image:

@@ -34,7 +34,7 @@ default:
       value: true
   path:
     -
-      alias: /shops/20
+      alias: /shop/20
       langcode: ja
       pathauto: 1
   body:

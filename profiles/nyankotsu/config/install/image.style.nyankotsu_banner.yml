@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: nyankotsu_banner
+label: にゃんコツバナー画像
+effects:
+  a7851b7b-3f28-4dfb-9669-e3b3818e08cc:
+    uuid: a7851b7b-3f28-4dfb-9669-e3b3818e08cc
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: null
+      upscale: false

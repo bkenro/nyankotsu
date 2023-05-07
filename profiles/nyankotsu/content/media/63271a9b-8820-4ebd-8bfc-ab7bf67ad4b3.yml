@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 63271a9b-8820-4ebd-8bfc-ab7bf67ad4b3
+  bundle: banner_image
+  default_langcode: ja
+  depends:
+    e7c04a67-8899-424d-988a-4da49372526b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: にゃんコツまつり
+  created:
+    -
+      value: 1683448569
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+      pathauto: 0
+  field_media_image:
+    -
+      entity: e7c04a67-8899-424d-988a-4da49372526b
+      alt: にゃんコツまつり
+      title: ''
+      width: 180
+      height: 206
