@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: basic
+label: 基本ブロック
+revision: 0
+description: 基本ブロックはタイトルと本文を持ちます。

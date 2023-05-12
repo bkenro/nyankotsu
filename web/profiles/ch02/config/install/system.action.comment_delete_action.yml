@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_delete_action
+label: コメントの削除
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: 記事
+type: article
+description: ニュースやプレスリリース、ブログのような時系列が重要なコンテンツには<em>記事</em>を使ってください。
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

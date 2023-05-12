@@ -1,0 +1,5 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: default
+label: デフォルト

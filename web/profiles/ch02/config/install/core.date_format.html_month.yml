@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: html_month
+label: 'HTML 月'
+locked: true
+pattern: Y-m
