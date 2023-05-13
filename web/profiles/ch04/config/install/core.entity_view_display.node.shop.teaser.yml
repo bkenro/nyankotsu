@@ -1,0 +1,40 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.shop.body
+    - field.field.node.shop.field_category
+    - field.field.node.shop.field_openhours
+    - field.field.node.shop.field_products
+    - field.field.node.shop.field_shopimage
+    - field.field.node.shop.field_shopnumber
+    - node.type.shop
+  module:
+    - text
+    - user
+id: node.shop.teaser
+targetEntityType: node
+bundle: shop
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category: true
+  field_openhours: true
+  field_products: true
+  field_shopimage: true
+  field_shopnumber: true
+  langcode: true

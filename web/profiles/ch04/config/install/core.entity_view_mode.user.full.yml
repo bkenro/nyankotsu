@@ -1,0 +1,9 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - user
+id: user.full
+label: ユーザーアカウント
+targetEntityType: user
+cache: true

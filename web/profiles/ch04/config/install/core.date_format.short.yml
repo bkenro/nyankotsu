@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: short
+label: デフォルトの短い日付
+locked: false
+pattern: 'Y/m/d - H:i'

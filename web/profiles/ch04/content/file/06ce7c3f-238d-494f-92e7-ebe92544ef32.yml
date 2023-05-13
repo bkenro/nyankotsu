@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 06ce7c3f-238d-494f-92e7-ebe92544ef32
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shrine_history.jpg
+  uri:
+    -
+      value: 'public://inline-images/shrine_history.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1760764
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683929243

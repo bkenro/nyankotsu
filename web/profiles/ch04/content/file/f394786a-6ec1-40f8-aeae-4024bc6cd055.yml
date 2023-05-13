@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f394786a-6ec1-40f8-aeae-4024bc6cd055
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop13.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop13.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 591530
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683952669

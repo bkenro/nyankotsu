@@ -1,0 +1,18 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_openhours
+    - node.type.shop
+id: node.shop.field_openhours
+field_name: field_openhours
+entity_type: node
+bundle: shop
+label: 営業時間
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

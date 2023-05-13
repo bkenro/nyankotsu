@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: comment
+label: デフォルトのコメント
+target_entity_type_id: node
+description: コンテンツへのコメントを許可
