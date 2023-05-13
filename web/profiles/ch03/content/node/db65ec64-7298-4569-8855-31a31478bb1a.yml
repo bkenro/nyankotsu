@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: db65ec64-7298-4569-8855-31a31478bb1a
+  bundle: shop
+  default_langcode: ja
+  depends:
+    51da8982-0beb-4b33-a0b5-1676211e7ef8: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'beauty salon mikako'
+  created:
+    -
+      value: 1683953562
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/16
+      langcode: ja
+  body:
+    -
+      value: '<p>あなたの「こうなりたい！」を叶えるお手伝いを致します。オーナーのミカは日本髪マニア。舞台衣装、メイクを長年経験したスタッフ、コスプレイヤーのスタッフも在籍している、とってもカオスなビューティサロンです♪</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 美容
+  field_openhours:
+    -
+      value: 8〜19時
+  field_products:
+    -
+      value: 'ヘアカット　パーマ　カラーリング'
+  field_shopimage:
+    -
+      entity: 51da8982-0beb-4b33-a0b5-1676211e7ef8
+      alt: 'beauty salon mikako'
+      title: ''
+      width: 1280
+      height: 854
+  field_shopnumber:
+    -
+      value: 16

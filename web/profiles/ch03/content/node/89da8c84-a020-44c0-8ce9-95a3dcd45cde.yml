@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 89da8c84-a020-44c0-8ce9-95a3dcd45cde
+  bundle: shop
+  default_langcode: ja
+  depends:
+    ae31efd8-cf9c-4b6e-b58f-264beb74fcad: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ひめの内科クリニック
+  created:
+    -
+      value: 1683955343
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/22
+      langcode: ja
+  body:
+    -
+      value: '<p>街の身近なお医者さんです。あれ？と思ったら我慢せずまずはご相談ください。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 医院（内科）
+  field_openhours:
+    -
+      value: 8〜19時
+  field_products:
+    -
+      value: 内科
+  field_shopimage:
+    -
+      entity: ae31efd8-cf9c-4b6e-b58f-264beb74fcad
+      alt: ひめの内科クリニック
+      title: ''
+      width: 1280
+      height: 960
+  field_shopnumber:
+    -
+      value: 22

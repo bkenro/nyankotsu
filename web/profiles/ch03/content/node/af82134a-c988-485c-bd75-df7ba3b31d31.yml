@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af82134a-c988-485c-bd75-df7ba3b31d31
+  bundle: shop
+  default_langcode: ja
+  depends:
+    89547fe3-c3e3-4f4d-ae37-2fbd524ddce3: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ':ecru'
+  created:
+    -
+      value: 1683950088
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/5
+      langcode: ja
+  body:
+    -
+      value: '<p>ゆったりとした時と暮らしたいあなたへ。シンプルながらもシルエットの美しいリネンのお洋服を揃えています。<br>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 服（女性）
+  field_openhours:
+    -
+      value: 10〜12時、13〜18時
+  field_products:
+    -
+      value: 女性服（30-40代向け）
+  field_shopimage:
+    -
+      entity: 89547fe3-c3e3-4f4d-ae37-2fbd524ddce3
+      alt: ':ecru'
+      title: ''
+      width: 1280
+      height: 960
+  field_shopnumber:
+    -
+      value: 5

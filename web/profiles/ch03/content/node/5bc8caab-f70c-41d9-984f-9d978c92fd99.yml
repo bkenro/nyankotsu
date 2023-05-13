@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5bc8caab-f70c-41d9-984f-9d978c92fd99
+  bundle: shop
+  default_langcode: ja
+  depends:
+    65c1a5eb-0734-40bd-8414-7c9aa0b945f5: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 酒倉
+  created:
+    -
+      value: 1683949705
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/3
+      langcode: ja
+  body:
+    -
+      value: '<p>日本全国の酒蔵を旅して集めた知る人ぞ知る逸品が勢揃い。角打ちで試飲もできます。美味しいおつまみもあるよ。でも美味しい酒ばっかりだから飲み過ぎには要注意！</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 酒
+  field_openhours:
+    -
+      value: 10〜20時
+  field_products:
+    -
+      value: '希少な日本酒　飲食店への卸'
+  field_shopimage:
+    -
+      entity: 65c1a5eb-0734-40bd-8414-7c9aa0b945f5
+      alt: 酒倉
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 3

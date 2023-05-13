@@ -30,7 +30,7 @@ default:
       value: false
   path:
     -
-      alias: ''
+      alias: /shop/23
       langcode: ja
   body:
     -

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 591bd433-9744-4491-8046-89548da27587
+  bundle: shop
+  default_langcode: ja
+  depends:
+    dd41d4f1-00de-4bd6-a8b0-25a2df7d6d59: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 長谷川写真館
+  created:
+    -
+      value: 1683952301
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/12
+      langcode: ja
+  body:
+    -
+      value: '<p>証明写真、記念写真、にゃんコツ神社でのロケーション撮影も受け付けています。七五三のお参りや神社での婚礼の際は是非。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 写真
+  field_openhours:
+    -
+      value: 9〜12時、13〜18時
+  field_products:
+    -
+      value: 記念撮影
+  field_shopimage:
+    -
+      entity: dd41d4f1-00de-4bd6-a8b0-25a2df7d6d59
+      alt: 長谷川写真館
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 12

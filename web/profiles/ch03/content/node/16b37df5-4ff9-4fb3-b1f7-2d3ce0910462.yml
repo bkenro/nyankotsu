@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 16b37df5-4ff9-4fb3-b1f7-2d3ce0910462
+  bundle: shop
+  default_langcode: ja
+  depends:
+    e02d6aa6-c17c-442c-a308-ea2e72f7a2a2: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 桃園郷
+  created:
+    -
+      value: 1683953173
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/15
+      langcode: ja
+  body:
+    -
+      value: '<p>テイクアウトOK。飲茶を楽しみたいなら桃園郷へ。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 中華料理
+  field_openhours:
+    -
+      value: 11〜14時、18〜23時
+  field_products:
+    -
+      value: 'チャーハン　餃子'
+  field_shopimage:
+    -
+      entity: e02d6aa6-c17c-442c-a308-ea2e72f7a2a2
+      alt: 桃園郷
+      title: ''
+      width: 1280
+      height: 960
+  field_shopnumber:
+    -
+      value: 15
