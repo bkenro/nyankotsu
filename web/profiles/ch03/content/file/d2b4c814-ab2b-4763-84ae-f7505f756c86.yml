@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 971b8e56-70de-4f9b-a273-0bf2058e0acd
+  uuid: d2b4c814-ab2b-4763-84ae-f7505f756c86
   default_langcode: ja
 default:
   uid:
@@ -12,7 +12,7 @@ default:
       value: sample1.jpg
   uri:
     -
-      value: 'public://inline-images/sample1.jpg'
+      value: 'public://inline-images/sample1_0.jpg'
   filemime:
     -
       value: image/jpeg
@@ -24,4 +24,4 @@ default:
       value: true
   created:
     -
-      value: 1683936920
+      value: 1683981023
