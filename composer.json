@@ -22,6 +22,7 @@
         "bower-asset/colorbox": "^1.6",
         "bower-asset/dompurify": "^2.3",
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/addtoany": "^2.0",
         "drupal/admin_toolbar": "^3.3",
         "drupal/back_to_top": "^3.0",
@@ -71,6 +72,9 @@
         "patches": {
             "drupal/field_group_table": {
                 "Automated Drupal 10 compatibility fixes (3287516)": "https://www.drupal.org/files/issues/2022-06-15/field_group_table.1.x-dev.rector.patch"
+            },
+            "drupal/default_content": {
+                "Predictable order of content import (3175870)": "https://www.drupal.org/files/issues/2020-10-08/3175870.patch"
             }
         },
 
