@@ -1,0 +1,9 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - user
+id: user.register
+label: 登録
+targetEntityType: user
+cache: true

@@ -1,6 +1,6 @@
-name: 第2章
+name: 第3章
 type: profile
-description: '第2章末の状態を再現します。'
+description: '第3章末の状態を再現します。'
 core_version_requirement: ^9 || ^10
 install:
   - automated_cron
@@ -55,11 +55,15 @@ themes:
 default_content:
   file:
     - 06ce7c3f-238d-494f-92e7-ebe92544ef32
+    - 27de8ab0-f1d3-44dc-8869-b5805d0e0381
+    - 971b8e56-70de-4f9b-a273-0bf2058e0acd
     - d5f09a7c-3848-46e4-a303-080d02a7f683
   node:
-    - 92ae9668-9ed0-4fdc-8f04-6a71add0a5bc
     - ff3b1f44-671b-4084-8a4f-8e3c09c114bc
+    - 92ae9668-9ed0-4fdc-8f04-6a71add0a5bc
     - fb3e79a8-eaa5-429a-9fe6-9397db1d6276
+    - ca660184-9003-4543-88e9-42b3747fcda6
+    - 14d22e90-8852-4bc5-bbc7-dc07f511264a
   menu_link_content:
     - 60d953c8-4960-4ced-a91f-917c51a77c07
     - 7c57f132-24f1-48ce-9101-f1fd23eb9628

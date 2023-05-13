@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ca660184-9003-4543-88e9-42b3747fcda6
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '喫茶＆ギャラリー　ミューズ'
+  created:
+    -
+      value: 1683936343
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  body:
+    -
+      value: '<img src="/sites/default/files/inline-images/sample1.jpg" data-entity-uuid="971b8e56-70de-4f9b-a273-0bf2058e0acd" data-entity-type="file" alt="喫茶＆ギャラリー　ミューズ"><p>年に一度数ヶ月不在にします。作家さんの個展があるときには、ギャラリーの準備で展示期間の前後はお休みとさせていただきます。</p><table><tbody><tr><td>主な取扱い</td><td>珈琲とアーティスト作品展示販売</td></tr><tr><td>営業時間</td><td>8〜18時（定休なし）</td></tr><tr><td>店舗カテゴリ</td><td>喫茶＆ギャラリー</td></tr><tr><td>店舗番号</td><td>23</td></tr></tbody></table>'
+      format: full_html
+      summary: ''

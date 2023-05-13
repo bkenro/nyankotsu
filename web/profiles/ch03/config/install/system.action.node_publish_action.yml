@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node_publish_action
+label: コンテンツを掲載
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }
