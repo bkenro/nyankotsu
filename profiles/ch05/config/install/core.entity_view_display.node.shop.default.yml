@@ -1,0 +1,88 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.shop.body
+    - field.field.node.shop.field_category
+    - field.field.node.shop.field_industry
+    - field.field.node.shop.field_openhours
+    - field.field.node.shop.field_products
+    - field.field.node.shop.field_shopimage
+    - field.field.node.shop.field_shopnumber
+    - image.style.shopimage
+    - node.type.shop
+  module:
+    - image
+    - text
+    - user
+id: node.shop.default
+targetEntityType: node
+bundle: shop
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_category:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_industry:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_openhours:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_products:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_shopimage:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: shopimage
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_shopnumber:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

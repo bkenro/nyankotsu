@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c2f5fbf2-f36b-4b6b-a0f4-f4335a64eb6a
+  bundle: shop
+  default_langcode: ja
+  depends:
+    b71bda96-5cad-4aee-906c-62d2b7bf1d56: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: クロワッサン
+  created:
+    -
+      value: 1683951771
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/10
+      langcode: ja
+  body:
+    -
+      value: '<p>自慢のバターたっぷりサクサククロワッサンはいかが？毎日10種以上のフレーバーを準備してお待ちしています。お隣のカフェボンジュールでは当店の焼き立てパンをセットにしたメニューもございます。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: パン
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: 'クロワッサン　他パン'
+  field_shopimage:
+    -
+      entity: b71bda96-5cad-4aee-906c-62d2b7bf1d56
+      alt: クロワッサン
+      title: ''
+      width: 1280
+      height: 854
+  field_shopnumber:
+    -
+      value: 10

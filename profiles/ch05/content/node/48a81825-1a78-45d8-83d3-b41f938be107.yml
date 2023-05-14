@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 48a81825-1a78-45d8-83d3-b41f938be107
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    932ee4d8-e3af-404e-aa3a-2281c170746f: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ヒノキ薬局
+  created:
+    -
+      value: 1683954943
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/21
+      langcode: ja
+  body:
+    -
+      value: '<p>お薬のことならお気軽にご相談ください。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 薬局
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 8〜19時
+  field_products:
+    -
+      value: '調剤　漢方'
+  field_shopimage:
+    -
+      entity: 932ee4d8-e3af-404e-aa3a-2281c170746f
+      alt: ヒノキ薬局
+      title: ''
+      width: 1280
+      height: 960
+  field_shopnumber:
+    -
+      value: 21

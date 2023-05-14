@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f46dddc-32d4-4cb9-98e0-0fe19d82a75a
+  bundle: article
+  default_langcode: ja
+  depends:
+    e7173de7-4839-42f2-a5e9-23d537ec9d3d: taxonomy_term
+    197b80c9-e690-4b7a-a8e8-9cc6c88d2b4f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 今年の夜桜
+  created:
+    -
+      value: 1684020456
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  body:
+    -
+      value: '<p>少し葉桜になってきたところだが、今年の桜もきれいだった。</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1684020487
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_tags:
+    -
+      entity: e7173de7-4839-42f2-a5e9-23d537ec9d3d
+    -
+      entity: 197b80c9-e690-4b7a-a8e8-9cc6c88d2b4f

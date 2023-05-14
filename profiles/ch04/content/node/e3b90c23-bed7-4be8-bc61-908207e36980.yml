@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e3b90c23-bed7-4be8-bc61-908207e36980
+  bundle: shop
+  default_langcode: ja
+  depends:
+    acd2173a-ab2d-4cd5-9d61-fbdc989f817e: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: テーラー表参道
+  created:
+    -
+      value: 1683952036
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/11
+      langcode: ja
+  body:
+    -
+      value: '<p>上質な生地で紳士淑女の為のフルオーダースーツ、シャツをお仕立て致します。2022年よりワンピース等の女性服のオーダーも受付開始致しました。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 服（男性）
+  field_openhours:
+    -
+      value: 10〜17時
+  field_products:
+    -
+      value: テーラーメイドスーツ
+  field_shopimage:
+    -
+      entity: acd2173a-ab2d-4cd5-9d61-fbdc989f817e
+      alt: テーラー表参道
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 11

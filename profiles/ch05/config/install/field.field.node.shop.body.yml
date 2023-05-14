@@ -1,0 +1,22 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.shop
+  module:
+    - text
+id: node.shop.body
+field_name: body
+entity_type: node
+bundle: shop
+label: 紹介⽂
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

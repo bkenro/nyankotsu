@@ -1,0 +1,9 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - node
+id: node.full
+label: 全文
+targetEntityType: node
+cache: true

@@ -1,0 +1,9 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - media
+id: media.full
+label: 全文
+targetEntityType: media
+cache: true

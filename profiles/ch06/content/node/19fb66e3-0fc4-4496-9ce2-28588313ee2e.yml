@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 19fb66e3-0fc4-4496-9ce2-28588313ee2e
+  bundle: shop
+  default_langcode: ja
+  depends:
+    d9e5914b-acf2-44cd-a0a8-088b0ea60d90: taxonomy_term
+    98e95148-e5ed-4eaa-8980-c4b669c6b724: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'カフェ　ボンジュール'
+  created:
+    -
+      value: 1683951529
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/9
+      langcode: ja
+  body:
+    -
+      value: '<p>お隣のクロワッサンさんの焼きたてパン＆コーヒーセットが人気です。お参りやお買い物の休憩に是非どうぞ。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: カフェ
+  field_industry:
+    -
+      entity: d9e5914b-acf2-44cd-a0a8-088b0ea60d90
+  field_openhours:
+    -
+      value: 7〜17時
+  field_products:
+    -
+      value: '珈琲　モーニングセット'
+  field_shopimage:
+    -
+      entity: 98e95148-e5ed-4eaa-8980-c4b669c6b724
+      alt: 'カフェ　ボンジュール'
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 9

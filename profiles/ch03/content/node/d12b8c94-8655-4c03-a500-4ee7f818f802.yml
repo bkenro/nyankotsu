@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d12b8c94-8655-4c03-a500-4ee7f818f802
+  bundle: shop
+  default_langcode: ja
+  depends:
+    868fc0f4-5fbc-40db-8846-482f013c5615: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'バーバ ダンディ'
+  created:
+    -
+      value: 1683949989
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/4
+      langcode: ja
+  body:
+    -
+      value: '<p>男のダンディズムは髪型から。無口な店主は太い眉毛と濃ゆい髭がトレードマーク。長年の経験と自慢の技術であなたのエレガンスを演出します。喫煙可。<br>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 理容
+  field_openhours:
+    -
+      value: 8〜19時
+  field_products:
+    -
+      value: 'ヘアカット　シェービング'
+  field_shopimage:
+    -
+      entity: 868fc0f4-5fbc-40db-8846-482f013c5615
+      alt: 'バーバ ダンディ'
+      title: ''
+      width: 1280
+      height: 893
+  field_shopnumber:
+    -
+      value: 4

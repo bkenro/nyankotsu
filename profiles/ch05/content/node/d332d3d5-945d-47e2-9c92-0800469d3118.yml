@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d332d3d5-945d-47e2-9c92-0800469d3118
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    0c275c17-5887-4892-b2a5-fb95eedbdbde: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 靴の赤木
+  created:
+    -
+      value: 1683955706
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/24
+      langcode: ja
+  body:
+    -
+      value: '<p>サンダル、長靴、運動靴、オシャレ靴、安全靴、さまざまな靴を取り扱っています。<br>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 靴
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜17時
+  field_products:
+    -
+      value: '一般流通の靴　学校指定靴'
+  field_shopimage:
+    -
+      entity: 0c275c17-5887-4892-b2a5-fb95eedbdbde
+      alt: 靴の赤木
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 24

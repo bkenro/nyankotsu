@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 09f66696-e470-499c-85a2-f48b28fa4851
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    33d91e3e-acbd-4ec9-a0c8-3725017d781d: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 玩具倉庫
+  created:
+    -
+      value: 1683956093
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/26
+      langcode: ja
+  body:
+    -
+      value: '<p>ビデオゲーム、ボードゲーム、カード、ミニ四駆、プラモ、ぬいぐるみ、色々あります。玩具の修理も受付ています。使わなくなった玩具の買い取りもしてます。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 玩具
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: 'プラモデル　ラジコン'
+  field_shopimage:
+    -
+      entity: 33d91e3e-acbd-4ec9-a0c8-3725017d781d
+      alt: 玩具倉庫
+      title: ''
+      width: 1280
+      height: 953
+  field_shopnumber:
+    -
+      value: 26

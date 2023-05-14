@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: tools
+label: ツール
+description: モジュールなどで追加されたユーザーツールリンク
+locked: true

@@ -1,0 +1,9 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.full
+label: タクソノミータームのページ
+targetEntityType: taxonomy_term
+cache: true

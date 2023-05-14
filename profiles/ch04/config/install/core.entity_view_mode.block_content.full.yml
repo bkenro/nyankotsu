@@ -1,0 +1,9 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - block_content
+id: block_content.full
+label: すべて
+targetEntityType: block_content
+cache: true

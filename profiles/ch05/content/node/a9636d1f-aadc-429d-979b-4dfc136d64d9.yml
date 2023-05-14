@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a9636d1f-aadc-429d-979b-4dfc136d64d9
+  bundle: shop
+  default_langcode: ja
+  depends:
+    d9e5914b-acf2-44cd-a0a8-088b0ea60d90: taxonomy_term
+    e901b929-7c51-4ed6-be93-685505144b51: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '居酒屋　天狗'
+  created:
+    -
+      value: 1683952707
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/14
+      langcode: ja
+  body:
+    -
+      value: '<p>この道二十有余年のベテラン焼き師が奏でる炭火と肉汁のハーモニー。テイクアウトOK。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 居酒屋
+  field_industry:
+    -
+      entity: d9e5914b-acf2-44cd-a0a8-088b0ea60d90
+  field_openhours:
+    -
+      value: 11〜14時、18〜23時
+  field_products:
+    -
+      value: 焼き鳥
+  field_shopimage:
+    -
+      entity: e901b929-7c51-4ed6-be93-685505144b51
+      alt: '居酒屋　天狗'
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 14

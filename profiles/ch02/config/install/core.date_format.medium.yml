@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: medium
+label: デフォルトの中ぐらいの日付
+locked: false
+pattern: 'Y/m/d(D) - H:i'

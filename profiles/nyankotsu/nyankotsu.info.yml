@@ -1,6 +1,6 @@
-name: Nyankotsu
+name: にゃんコツ商店街
 type: profile
-description: 'Custom install profile for Nyankotsu site.'
+description: 'にゃんコツ商店街のデモサイトを構築します。'
 core_version_requirement: ^9 || ^10
 install:
   - addtoany

@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e87310b7-3f7a-4aab-8717-50a85af989db
+  bundle: article
+  default_langcode: ja
+  depends:
+    c5e1e67f-216e-41d2-9bf3-04afc5a9dfe2: taxonomy_term
+    e7173de7-4839-42f2-a5e9-23d537ec9d3d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 十条から王子まで花見散歩
+  created:
+    -
+      value: 1684020506
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  body:
+    -
+      value: '<p>十条から坂をおりてくると石川井川の紅葉橋に行くことができる。2023年3月30日には既に散り始めていた。</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1684020543
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_tags:
+    -
+      entity: c5e1e67f-216e-41d2-9bf3-04afc5a9dfe2
+    -
+      entity: e7173de7-4839-42f2-a5e9-23d537ec9d3d

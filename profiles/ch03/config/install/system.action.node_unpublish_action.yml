@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node_unpublish_action
+label: コンテンツを非公開にする
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: footer
+label: フッター
+description: サイト情報のリンク
+locked: true

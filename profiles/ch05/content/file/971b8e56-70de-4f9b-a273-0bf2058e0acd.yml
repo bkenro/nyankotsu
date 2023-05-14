@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 971b8e56-70de-4f9b-a273-0bf2058e0acd
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sample1.jpg
+  uri:
+    -
+      value: 'public://inline-images/sample1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 685117
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683936920

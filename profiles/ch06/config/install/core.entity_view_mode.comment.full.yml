@@ -1,0 +1,9 @@
+langcode: ja
+status: false
+dependencies:
+  module:
+    - comment
+id: comment.full
+label: コメント全文
+targetEntityType: comment
+cache: true

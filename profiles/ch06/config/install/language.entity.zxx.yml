@@ -1,0 +1,8 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: zxx
+label: 適用不可
+direction: ltr
+weight: 3
+locked: true

@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e536df9e-4cc3-4d6b-80aa-04c2c8256092
+  bundle: shop
+  default_langcode: ja
+  depends:
+    d9e5914b-acf2-44cd-a0a8-088b0ea60d90: taxonomy_term
+    34fc9ac2-a45a-4637-a7b7-242e7debaedf: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 寿司の紀邑
+  created:
+    -
+      value: 1683950841
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/8
+      langcode: ja
+  body:
+    -
+      value: '<p>出前　テイクアウトOK。磯崎市場から新鮮な魚介を毎日仕入れています。6名様までお入り頂ける奥座敷もございます（３日前までに要予約）<br>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 寿司
+  field_industry:
+    -
+      entity: d9e5914b-acf2-44cd-a0a8-088b0ea60d90
+  field_openhours:
+    -
+      value: 11〜14時、18〜22時
+  field_products:
+    -
+      value: 握り寿司
+  field_shopimage:
+    -
+      entity: 34fc9ac2-a45a-4637-a7b7-242e7debaedf
+      alt: 寿司の紀邑
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 8

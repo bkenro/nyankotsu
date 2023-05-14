@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e02d6aa6-c17c-442c-a308-ea2e72f7a2a2
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop15.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop15.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 761864
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683953528

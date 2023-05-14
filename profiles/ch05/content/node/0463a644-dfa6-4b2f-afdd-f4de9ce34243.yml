@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0463a644-dfa6-4b2f-afdd-f4de9ce34243
+  bundle: shop
+  default_langcode: ja
+  depends:
+    d9e5914b-acf2-44cd-a0a8-088b0ea60d90: taxonomy_term
+    8f9a5833-e169-4fc5-8126-4359203b2c23: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'タピオカ喫茶店 まる茶'
+  created:
+    -
+      value: 1683956495
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/27
+      langcode: ja
+  body:
+    -
+      value: '<p>高級茶葉を使用したタピオカドリンクが楽しめます。店内にはイートインスペースも用意しています。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: カフェ
+  field_industry:
+    -
+      entity: d9e5914b-acf2-44cd-a0a8-088b0ea60d90
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: タピオカミルクティー
+  field_shopimage:
+    -
+      entity: 8f9a5833-e169-4fc5-8126-4359203b2c23
+      alt: 'タピオカ喫茶店 まる茶'
+      title: ''
+      width: 1280
+      height: 850
+  field_shopnumber:
+    -
+      value: 27

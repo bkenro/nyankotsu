@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 60d953c8-4960-4ced-a91f-917c51a77c07
+  bundle: menu_link_content
+  default_langcode: ja
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 神社の紹介
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/shrine'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
