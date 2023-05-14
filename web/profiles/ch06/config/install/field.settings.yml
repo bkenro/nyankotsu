@@ -1,0 +1,2 @@
+langcode: ja
+purge_batch_size: 50

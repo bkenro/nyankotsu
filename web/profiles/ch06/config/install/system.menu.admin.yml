@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: admin
+label: 管理
+description: 管理タスクのリンク
+locked: true

@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: html_date
+label: 'HTML 日付'
+locked: true
+pattern: Y-m-d

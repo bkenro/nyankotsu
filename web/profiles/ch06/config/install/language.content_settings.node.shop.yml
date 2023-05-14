@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - node.type.shop
+id: node.shop
+target_entity_type_id: node
+target_bundle: shop
+default_langcode: site_default
+language_alterable: false

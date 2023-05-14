@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: 業種
+vid: industry
+description: ''
+weight: 0

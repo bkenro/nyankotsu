@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e7173de7-4839-42f2-a5e9-23d537ec9d3d
+  bundle: tags
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 花⾒
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja

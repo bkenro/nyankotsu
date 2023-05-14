@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9fee5ae8-82b2-4668-9e0b-32df479372c9
+  bundle: shop
+  default_langcode: ja
+  depends:
+    d9e5914b-acf2-44cd-a0a8-088b0ea60d90: taxonomy_term
+    f394786a-6ec1-40f8-aeae-4024bc6cd055: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sole italiano'
+  created:
+    -
+      value: 1683952512
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/13
+      langcode: ja
+  body:
+    -
+      value: '<p>イタリア出身の日本人シェフが手がけるイタリア家庭料理をぜひごお楽しみください。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: イタリア料理
+  field_industry:
+    -
+      entity: d9e5914b-acf2-44cd-a0a8-088b0ea60d90
+  field_openhours:
+    -
+      value: 11〜14時、18〜21時
+  field_products:
+    -
+      value: パスタ
+  field_shopimage:
+    -
+      entity: f394786a-6ec1-40f8-aeae-4024bc6cd055
+      alt: 'Sole italiano'
+      title: ''
+      width: 1280
+      height: 854
+  field_shopnumber:
+    -
+      value: 13

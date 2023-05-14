@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_publish_action
+label: コメントを公開する
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }
