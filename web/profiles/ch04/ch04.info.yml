@@ -1,6 +1,5 @@
-name: 第4章
+name: にゃんコツ：第4章末の状態
 type: profile
-description: '第4章末の状態を再現します。'
 core_version_requirement: ^9 || ^10
 install:
   - automated_cron
