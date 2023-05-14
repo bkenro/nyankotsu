@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - user
+id: user_block_user_action
+label: 選択されたユーザーをブロック
+type: user
+plugin: user_block_user_action
+configuration: {  }

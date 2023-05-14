@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node_promote_action
+label: コンテンツをトップページに表示する
+type: node
+plugin: node_promote_action
+configuration: {  }

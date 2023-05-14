@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 68430b5d-da4a-4b4a-aee0-968da7739cf9
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    5b0be943-bd63-40b1-b1e0-87ce88c43767: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 呉服の錦堂
+  created:
+    -
+      value: 1683953878
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/17
+      langcode: ja
+  body:
+    -
+      value: '<p>着物、浴衣の販売やレンタル、クリーニング受付も行っています。毎週土曜日は着付け教室も開催中です。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 呉服
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜17時
+  field_products:
+    -
+      value: 着物販売＆レンタル
+  field_shopimage:
+    -
+      entity: 5b0be943-bd63-40b1-b1e0-87ce88c43767
+      alt: 呉服の錦堂
+      title: ''
+      width: 1280
+      height: 847
+  field_shopnumber:
+    -
+      value: 17

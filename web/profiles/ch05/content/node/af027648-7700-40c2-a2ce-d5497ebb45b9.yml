@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af027648-7700-40c2-a2ce-d5497ebb45b9
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    931dce6d-100f-4f47-87b7-c164982c7338: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 猫の洋菓子店
+  created:
+    -
+      value: 1683950621
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/7
+      langcode: ja
+  body:
+    -
+      value: '<p>猫好き店主（でも猫アレルギー）の猫まみれな不思議な洋菓子店。席は少ないですが、イートインもできます。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 洋菓子
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: ケーキ、焼き菓子
+  field_shopimage:
+    -
+      entity: 931dce6d-100f-4f47-87b7-c164982c7338
+      alt: 猫の洋菓子店
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 7

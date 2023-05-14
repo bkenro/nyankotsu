@@ -1,0 +1,10 @@
+langcode: ja
+first_day: 0
+country:
+  default: JP
+timezone:
+  default: Asia/Tokyo
+  user:
+    configurable: true
+    default: 0
+    warn: false

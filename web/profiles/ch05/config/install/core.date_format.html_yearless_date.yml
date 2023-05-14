@@ -1,0 +1,7 @@
+langcode: ja
+status: true
+dependencies: {  }
+id: html_yearless_date
+label: 'HTML 年無し日付'
+locked: true
+pattern: m-d

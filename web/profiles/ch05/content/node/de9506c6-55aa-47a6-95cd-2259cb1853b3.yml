@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: de9506c6-55aa-47a6-95cd-2259cb1853b3
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    8cb70eb9-fad8-410b-b888-97cc6a13c8ca: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 小松電器
+  created:
+    -
+      value: 1683954366
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /shop/19
+      langcode: ja
+  body:
+    -
+      value: '<p>身近な家電のお困りごとは何でもご相談ください！スマホやパソコンの購入から設定まで親切丁寧に行います。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 電器
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: '家電販売　取付工事'
+  field_shopimage:
+    -
+      entity: 8cb70eb9-fad8-410b-b888-97cc6a13c8ca
+      alt: 小松電器
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 19

@@ -1,0 +1,10 @@
+langcode: ja
+status: true
+dependencies:
+  enforced:
+    theme:
+      - olivero
+id: olivero_medium
+label: 'Olivero Medium'
+locked: false
+pattern: 'j  F,  Y'

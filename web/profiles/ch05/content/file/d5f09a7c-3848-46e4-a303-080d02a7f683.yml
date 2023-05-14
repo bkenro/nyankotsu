@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d5f09a7c-3848-46e4-a303-080d02a7f683
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nyankotsu_shrine.jpg
+  uri:
+    -
+      value: 'public://inline-images/nyankotsu_shrine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1244105
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683931199

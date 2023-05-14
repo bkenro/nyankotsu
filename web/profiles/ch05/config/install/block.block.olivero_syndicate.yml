@@ -1,0 +1,20 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - olivero
+id: olivero_syndicate
+theme: olivero
+region: social
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: RSSフィード
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

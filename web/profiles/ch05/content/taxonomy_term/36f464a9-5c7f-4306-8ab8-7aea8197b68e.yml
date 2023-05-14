@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  bundle: industry
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 小売
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja

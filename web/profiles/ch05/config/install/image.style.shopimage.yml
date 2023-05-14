@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: shopimage
+label: 店舗画像
+effects:
+  bab51324-1b6f-4eb6-9641-f4b9ffa277ea:
+    uuid: bab51324-1b6f-4eb6-9641-f4b9ffa277ea
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 400
+      anchor: center-center

@@ -1,0 +1,12 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - node
+id: node_search
+label: コンテンツ
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }
