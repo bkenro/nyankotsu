@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 65fc8171-88ff-41c9-acb5-eb395e39c8a8
+  bundle: image
+  default_langcode: ja
+  depends:
+    33fc26f1-e173-43e8-9298-4565ae94a428: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: nyankotsu_shrine_media.jpg
+  created:
+    -
+      value: 1684068237
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  field_media_image:
+    -
+      entity: 33fc26f1-e173-43e8-9298-4565ae94a428
+      alt: にゃんコツ神社
+      title: ''
+      width: 1873
+      height: 800

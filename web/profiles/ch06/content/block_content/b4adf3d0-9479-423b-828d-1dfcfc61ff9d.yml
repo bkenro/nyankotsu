@@ -19,6 +19,6 @@ default:
       value: true
   body:
     -
-      value: '<img data-entity-uuid="d5f09a7c-3848-46e4-a303-080d02a7f683" data-entity-type="file" src="/sites/default/files/inline-images/nyankotsu_shrine.jpg">'
+      value: '<drupal-media data-entity-type="media" data-entity-uuid="65fc8171-88ff-41c9-acb5-eb395e39c8a8" data-align="center">&nbsp;</drupal-media>'
       format: basic_html
       summary: ''

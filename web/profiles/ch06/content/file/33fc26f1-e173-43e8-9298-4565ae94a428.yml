@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 633d8fbd-71c0-4a98-a382-71b6a497e2dc
+  uuid: 33fc26f1-e173-43e8-9298-4565ae94a428
   default_langcode: ja
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: shop0.jpg
+      value: nyankotsu_shrine_media.jpg
   uri:
     -
-      value: 'public://2023-05/shop0.jpg'
+      value: 'public://2023-05/nyankotsu_shrine_media.jpg'
   filemime:
     -
       value: image/jpeg
   filesize:
     -
-      value: 1233051
+      value: 1244105
   status:
     -
       value: true
   created:
     -
-      value: 1683948218
+      value: 1684068237
