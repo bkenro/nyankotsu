@@ -18,7 +18,7 @@
 /tmp
 
 # Ignore files for dev-tools etc.
-/drush/sites/prod.site.yml
+/drush
 /misc
 /.vscode
 /.editorconfig
