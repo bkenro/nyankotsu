@@ -1,7 +1,7 @@
 langcode: ja
 first_day: 0
 country:
-  default: JP
+  default: ''
 timezone:
   default: Asia/Tokyo
   user:

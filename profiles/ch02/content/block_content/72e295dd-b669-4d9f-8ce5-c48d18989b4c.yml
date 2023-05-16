@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: block_content
-  uuid: b4adf3d0-9479-423b-828d-1dfcfc61ff9d
+  uuid: 72e295dd-b669-4d9f-8ce5-c48d18989b4c
   bundle: basic
   default_langcode: ja
 default:
@@ -19,6 +19,6 @@ default:
       value: true
   body:
     -
-      value: '<img data-entity-uuid="d5f09a7c-3848-46e4-a303-080d02a7f683" data-entity-type="file" src="/sites/default/files/inline-images/nyankotsu_shrine.jpg">'
+      value: '<img src="/nyankotsu-latest/sites/default/files/inline-images/nyankotsu_shrine.jpg" data-entity-uuid="d273ad62-7860-477f-b25b-6ce2ea5fa42e" data-entity-type="file" alt="にゃんコツ神社">'
       format: basic_html
       summary: ''
