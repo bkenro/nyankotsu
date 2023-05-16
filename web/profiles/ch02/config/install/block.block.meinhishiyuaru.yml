@@ -2,7 +2,7 @@ langcode: ja
 status: true
 dependencies:
   content:
-    - 'block_content:basic:b4adf3d0-9479-423b-828d-1dfcfc61ff9d'
+    - 'block_content:basic:72e295dd-b669-4d9f-8ce5-c48d18989b4c'
   module:
     - block_content
     - system
@@ -13,9 +13,9 @@ theme: olivero
 region: hero
 weight: 0
 provider: null
-plugin: 'block_content:b4adf3d0-9479-423b-828d-1dfcfc61ff9d'
+plugin: 'block_content:72e295dd-b669-4d9f-8ce5-c48d18989b4c'
 settings:
-  id: 'block_content:b4adf3d0-9479-423b-828d-1dfcfc61ff9d'
+  id: 'block_content:72e295dd-b669-4d9f-8ce5-c48d18989b4c'
   label: メインビジュアル
   label_display: '0'
   provider: block_content

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 06ce7c3f-238d-494f-92e7-ebe92544ef32
+  uuid: 08af8a0a-174e-4efd-b58c-9e390ce7d442
   default_langcode: ja
 default:
   uid:
@@ -18,10 +18,10 @@ default:
       value: image/jpeg
   filesize:
     -
-      value: 1760764
+      value: 647726
   status:
     -
       value: true
   created:
     -
-      value: 1683929243
+      value: 1684267637

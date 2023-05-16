@@ -53,15 +53,15 @@ themes:
   - olivero
 default_content:
   file:
-    - 06ce7c3f-238d-494f-92e7-ebe92544ef32
-    - d5f09a7c-3848-46e4-a303-080d02a7f683
+    - 08af8a0a-174e-4efd-b58c-9e390ce7d442
+    - d273ad62-7860-477f-b25b-6ce2ea5fa42e
   node:
-    - 92ae9668-9ed0-4fdc-8f04-6a71add0a5bc
-    - ff3b1f44-671b-4084-8a4f-8e3c09c114bc
-    - fb3e79a8-eaa5-429a-9fe6-9397db1d6276
+    - 16cbfc62-bb07-44b0-8fd2-6833a717c919
+    - 3b590dd0-73aa-4474-a72f-b1f786d1872f
+    - ffff1961-63c1-470d-8cca-ae95f5478545
   menu_link_content:
-    - 60d953c8-4960-4ced-a91f-917c51a77c07
-    - 7c57f132-24f1-48ce-9101-f1fd23eb9628
-    - fbe21cc0-d973-48c3-9ba5-9e46ce67606d
+    - 08008756-4a4c-463b-a5fa-ec5612a0df8a
+    - b23b1dbb-0281-4e17-97df-fcf2f6757533
+    - b8997b84-a47c-4505-9af7-430111718f61
   block_content:
-    - b4adf3d0-9479-423b-828d-1dfcfc61ff9d
+    - 72e295dd-b669-4d9f-8ce5-c48d18989b4c

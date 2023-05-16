@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: node
-  uuid: ff3b1f44-671b-4084-8a4f-8e3c09c114bc
+  uuid: ffff1961-63c1-470d-8cca-ae95f5478545
   bundle: page
   default_langcode: ja
 default:
@@ -19,7 +19,7 @@ default:
       value: にゃんコツ商店街へようこそ
   created:
     -
-      value: 1683928712
+      value: 1684267380
   promote:
     -
       value: false
