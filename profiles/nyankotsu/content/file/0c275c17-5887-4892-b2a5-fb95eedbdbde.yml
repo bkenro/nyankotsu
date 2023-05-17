@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0c275c17-5887-4892-b2a5-fb95eedbdbde
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop24.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop24_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 937115
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683955887

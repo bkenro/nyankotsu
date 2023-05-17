@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fa45d39-6390-43c4-aa29-31d44bade6a8
+  bundle: news
+  default_langcode: ja
+  depends:
+    052b1b05-c258-4ca4-bb08-e28547509e3d: media
+    0463a644-dfa6-4b2f-afdd-f4de9ce34243: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: カフェ「まる茶」が開店！
+  created:
+    -
+      value: 1684045303
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  body:
+    -
+      value: '<p>商店街の南東側にタピオカ喫茶店「まる茶」が新しく開店します。<br>開店記念に「にゃんコツカステラ」を配布されるそうです。</p><drupal-media data-entity-type="media" data-entity-uuid="052b1b05-c258-4ca4-bb08-e28547509e3d" data-align="center" data-caption="にゃんコツカステラ">&nbsp;</drupal-media><p>皆さま、ぜひお誘い合わせのうえ、おいでください。</p>'
+      format: basic_html
+      summary: ''
+  field_from:
+    -
+      value: '2023-05-15'
+  field_media:
+    -
+      entity: 052b1b05-c258-4ca4-bb08-e28547509e3d
+  field_shops:
+    -
+      entity: 0463a644-dfa6-4b2f-afdd-f4de9ce34243

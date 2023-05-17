@@ -1,9 +1,0 @@
-langcode: ja
-status: true
-dependencies:
-  module:
-    - media
-id: media.token
-label: Token
-targetEntityType: media
-cache: true

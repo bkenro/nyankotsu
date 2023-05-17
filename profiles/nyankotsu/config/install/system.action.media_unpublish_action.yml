@@ -4,7 +4,7 @@ dependencies:
   module:
     - media
 id: media_unpublish_action
-label: 'Unpublish media'
+label: メディアを非掲載
 type: media
 plugin: 'entity:unpublish_action:media'
 configuration: {  }

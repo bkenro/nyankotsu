@@ -1,7 +1,0 @@
-langcode: ja
-status: true
-dependencies: {  }
-name: 店舗種別
-vid: shoptype
-description: 店舗の種類を表す分類用語です。
-weight: 0

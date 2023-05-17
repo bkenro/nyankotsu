@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 34fc9ac2-a45a-4637-a7b7-242e7debaedf
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop8.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop8_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 623240
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683951098

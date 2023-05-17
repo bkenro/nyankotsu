@@ -3,101 +3,18 @@ status: true
 dependencies:
   config:
     - field.field.node.shop.body
-    - field.field.node.shop.field_image
-    - field.field.node.shop.field_master
+    - field.field.node.shop.field_category
+    - field.field.node.shop.field_industry
     - field.field.node.shop.field_openhours
-    - field.field.node.shop.field_phone
     - field.field.node.shop.field_products
-    - field.field.node.shop.field_shopname
+    - field.field.node.shop.field_shopimage
     - field.field.node.shop.field_shopnumber
-    - field.field.node.shop.field_shoptype
-    - field.field.node.shop.field_url
-    - image.style.large
+    - image.style.shopimage
     - node.type.shop
   module:
-    - field_group
     - image
-    - link
-    - telephone
     - text
     - user
-third_party_settings:
-  field_group:
-    group_shopinfo:
-      children:
-        - field_shopname
-        - field_products
-        - field_master
-        - field_openhours
-        - field_shoptype
-        - field_phone
-        - field_url
-      label: ''
-      parent_name: ''
-      region: content
-      weight: 2
-      format_type: field_group_table
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        element: div
-        show_label: false
-        label_element: h3
-        label_element_classes: ''
-        attributes: ''
-        effect: none
-        speed: fast
-        description: ''
-        label_visibility: '2'
-        desc: ''
-        desc_visibility: '2'
-        first_column: ''
-        second_column: ''
-        empty_label_behavior: '1'
-        empty_field_placeholder: ''
-        table_row_striping: 0
-        always_show_field_label: 0
-        always_show_field_value: 0
-        hide_table_if_empty: 0
-    group_overview:
-      children:
-        - body
-      label: 概要
-      parent_name: ''
-      region: content
-      weight: 0
-      format_type: html_element
-      format_settings:
-        classes: w3-panel
-        show_empty_fields: false
-        id: ''
-        element: div
-        show_label: false
-        label_element: h3
-        label_element_classes: ''
-        attributes: ''
-        effect: none
-        speed: fast
-    group_photos:
-      children:
-        - field_image
-      label: 写真
-      parent_name: ''
-      region: content
-      weight: 1
-      format_type: html_element
-      format_settings:
-        classes: w3-panel
-        show_empty_fields: false
-        id: ''
-        element: div
-        show_label: false
-        label_element: h3
-        label_element_classes: ''
-        attributes: ''
-        effect: none
-        speed: fast
 id: node.shop.default
 targetEntityType: node
 bundle: shop
@@ -108,85 +25,64 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
-  field_image:
+  field_category:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_industry:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_openhours:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_products:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_shopimage:
     type: image
     label: hidden
     settings:
       image_link: ''
-      image_style: large
+      image_style: shopimage
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 3
+    weight: 0
     region: content
-  field_master:
-    type: string
-    label: above
+  field_shopnumber:
+    type: number_integer
+    label: inline
     settings:
-      link_to_entity: false
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    weight: 13
-    region: content
-  field_openhours:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 14
-    region: content
-  field_phone:
-    type: telephone_link
-    label: above
-    settings:
-      title: ''
-    third_party_settings: {  }
-    weight: 16
-    region: content
-  field_products:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_shopname:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 11
-    region: content
-  field_shoptype:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: false
-    third_party_settings: {  }
-    weight: 15
-    region: content
-  field_url:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    weight: 17
+    weight: 6
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 1
     region: content
 hidden:
-  addtoany: true
-  field_shopnumber: true
   langcode: true

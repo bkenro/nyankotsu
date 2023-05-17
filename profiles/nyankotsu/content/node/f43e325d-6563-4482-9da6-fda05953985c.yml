@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f43e325d-6563-4482-9da6-fda05953985c
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    e75bdb14-b06b-4a4f-86b0-7272e5ce4e40: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Craft shop 白菜堂'
+  created:
+    -
+      value: 1683955910
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/25
+      langcode: ja
+  body:
+    -
+      value: '<p>世界中の刺繍に関する道具や本を、古いものから新しいものまで多数取り揃えています。刺繍のことなら何でも聞きに来てくださ〜い！</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 手芸品
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜18時
+  field_products:
+    -
+      value: 手芸用品全般
+  field_shopimage:
+    -
+      entity: e75bdb14-b06b-4a4f-86b0-7272e5ce4e40
+      alt: 'Craft shop 白菜堂'
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 25

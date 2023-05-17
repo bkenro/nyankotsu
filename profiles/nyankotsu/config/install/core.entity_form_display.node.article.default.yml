@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_banner
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -12,7 +11,6 @@ dependencies:
   module:
     - comment
     - image
-    - media_library
     - path
     - text
 id: node.article.default
@@ -32,26 +30,19 @@ content:
     third_party_settings: {  }
   comment:
     type: comment_default
-    weight: 10
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 7
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_banner:
-    type: media_library_widget
-    weight: 1
-    region: content
-    settings:
-      media_types: {  }
-    third_party_settings: {  }
   field_image:
     type: image_image
-    weight: 5
+    weight: 1
     region: content
     settings:
       progress_indicator: throbber
@@ -59,7 +50,7 @@ content:
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
-    weight: 4
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -69,34 +60,34 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 3
+    weight: 2
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 11
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 8
+    weight: 15
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 13
+    weight: 120
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 9
+    weight: 16
     region: content
     settings:
       display_label: true
@@ -111,17 +102,12 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 6
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  url_redirects:
-    weight: 12
-    region: content
-    settings: {  }
     third_party_settings: {  }
 hidden: {  }

@@ -10,7 +10,7 @@ dependencies:
 id: sqw3css_main_menu
 theme: sqw3css
 region: primary_menu
-weight: -6
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:

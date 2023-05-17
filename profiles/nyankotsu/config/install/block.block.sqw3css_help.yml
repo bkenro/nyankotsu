@@ -8,7 +8,7 @@ dependencies:
 id: sqw3css_help
 theme: sqw3css
 region: content
-weight: -6
+weight: -3
 provider: null
 plugin: help_block
 settings:

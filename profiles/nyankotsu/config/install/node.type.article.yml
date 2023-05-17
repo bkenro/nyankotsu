@@ -1,12 +1,6 @@
 langcode: ja
 status: true
-dependencies:
-  module:
-    - menu_ui
-third_party_settings:
-  menu_ui:
-    available_menus: {  }
-    parent: ''
+dependencies: {  }
 name: 記事
 type: article
 description: ニュースやプレスリリース、ブログのような時系列が重要なコンテンツには<em>記事</em>を使ってください。

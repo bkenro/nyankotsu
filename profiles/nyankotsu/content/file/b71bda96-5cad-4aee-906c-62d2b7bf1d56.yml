@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b71bda96-5cad-4aee-906c-62d2b7bf1d56
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop10.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop10_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 902111
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683951982

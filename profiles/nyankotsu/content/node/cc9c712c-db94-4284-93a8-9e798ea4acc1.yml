@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cc9c712c-db94-4284-93a8-9e798ea4acc1
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    687b9c37-c912-4ceb-918a-f81fa837c7e8: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '御菓子処　ながゐ'
+  created:
+    -
+      value: 1683948982
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/2
+      langcode: ja
+  body:
+    -
+      value: '<p>店頭でにゃんコツの人形焼を販売しています。季節の和菓子、あん餅、干菓子、小さなお店ですが、爺と婆でできる範囲で仲良くやってます。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 和菓子
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜17時
+  field_products:
+    -
+      value: '饅頭　団子（にゃんコツ饅頭）'
+  field_shopimage:
+    -
+      entity: 687b9c37-c912-4ceb-918a-f81fa837c7e8
+      alt: '御菓子処　ながゐ'
+      title: ''
+      width: 1280
+      height: 853
+  field_shopnumber:
+    -
+      value: 2

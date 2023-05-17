@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 868fc0f4-5fbc-40db-8846-482f013c5615
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop4.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop4_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 692644
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683950044

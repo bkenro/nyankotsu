@@ -3,8 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_banner
-    - field.field.node.page.field_category
     - node.type.page
   module:
     - text
@@ -19,15 +17,10 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 100
     region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
+    weight: 101
     region: content
 hidden:
-  addtoany: true
-  field_banner: true
-  field_category: true
   langcode: true

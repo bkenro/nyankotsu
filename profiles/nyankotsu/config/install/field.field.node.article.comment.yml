@@ -16,7 +16,7 @@ required: false
 translatable: true
 default_value:
   -
-    status: 1
+    status: 2
     cid: 0
     last_comment_timestamp: 0
     last_comment_name: null

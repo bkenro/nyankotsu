@@ -8,6 +8,7 @@ dependencies:
     - contact
     - filter
     - media
+    - search
     - system
 id: anonymous
 label: 匿名ユーザー
@@ -17,5 +18,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'search content'
   - 'use text format restricted_html'
   - 'view media'

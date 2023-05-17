@@ -8,14 +8,14 @@ id: node.shop.field_shopnumber
 field_name: field_shopnumber
 entity_type: node
 bundle: shop
-label: 店舗No.
+label: 店舗番号
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  min: 0
+  min: null
   max: null
   prefix: ''
   suffix: ''

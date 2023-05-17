@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 72e69e66-d454-484a-95fe-dcf682575a25
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    b1232ec1-dee3-44fc-9ea0-d40d80962f45: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 本と文具の光琳堂
+  created:
+    -
+      value: 1683950299
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/6
+      langcode: ja
+  body:
+    -
+      value: '<p>書籍・雑誌・文具・図書カードを販売。お薦め本や文房具を揃えた『光琳堂スタッフオススメコーナー』毎月更新しています。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 本・文具
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 10〜21時
+  field_products:
+    -
+      value: 書籍、文房具
+  field_shopimage:
+    -
+      entity: b1232ec1-dee3-44fc-9ea0-d40d80962f45
+      alt: 本と文具の光琳堂
+      title: ''
+      width: 1280
+      height: 854
+  field_shopnumber:
+    -
+      value: 6

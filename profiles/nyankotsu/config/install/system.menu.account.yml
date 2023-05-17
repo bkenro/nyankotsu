@@ -2,6 +2,6 @@ langcode: ja
 status: true
 dependencies: {  }
 id: account
-label: 'User account menu'
+label: ユーザーアカウントメニュー
 description: アクティブなユーザーアカウントに関連したリンク
 locked: true

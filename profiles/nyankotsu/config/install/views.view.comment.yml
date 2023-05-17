@@ -410,7 +410,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: 操作
           exclude: false
           alter:
             alter_text: false
@@ -525,29 +525,29 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'next ›'
-            previous: '‹ previous'
-            first: '« first'
-            last: 'last »'
+            next: '次へ ›'
+            previous: '‹ 前へ'
+            first: '« 最初へ'
+            last: '最後 »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: ページ毎の件数
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- 全て -'
             offset: false
-            offset_label: Offset
+            offset_label: オフセット
           quantity: 9
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: フィルター
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
       access:
         type: perm
         options:
@@ -727,7 +727,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: 言語
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1288,7 +1288,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: 操作
           exclude: false
           alter:
             alter_text: false
@@ -1537,7 +1537,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: 言語
             description: ''
             use_operator: false
             operator: langcode_op

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27de8ab0-f1d3-44dc-8869-b5805d0e0381
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop23.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop23_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 483679
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683938426

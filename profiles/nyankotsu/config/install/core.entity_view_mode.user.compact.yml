@@ -4,6 +4,6 @@ dependencies:
   module:
     - user
 id: user.compact
-label: コンパクト
+label: Compact
 targetEntityType: user
 cache: true

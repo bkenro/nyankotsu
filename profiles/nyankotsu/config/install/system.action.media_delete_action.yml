@@ -4,7 +4,7 @@ dependencies:
   module:
     - media
 id: media_delete_action
-label: 'Delete media'
+label: メディアを削除
 type: media
 plugin: 'entity:delete_action:media'
 configuration: {  }

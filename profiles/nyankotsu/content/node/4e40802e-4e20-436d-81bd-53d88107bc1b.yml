@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4e40802e-4e20-436d-81bd-53d88107bc1b
+  bundle: shop
+  default_langcode: ja
+  depends:
+    8ae334f1-3741-4dc4-82a4-424c8456bb41: taxonomy_term
+    633d8fbd-71c0-4a98-a382-71b6a497e2dc: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: にゃんコツ神社
+  created:
+    -
+      value: 1683947982
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/0
+      langcode: ja
+  body:
+    -
+      value: '<p>神社入り口付近でお守りや絵馬を販売しています。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 神社
+  field_industry:
+    -
+      entity: 8ae334f1-3741-4dc4-82a4-424c8456bb41
+  field_openhours:
+    -
+      value: 8〜16時
+  field_products:
+    -
+      value: お守り、絵馬、神事
+  field_shopimage:
+    -
+      entity: 633d8fbd-71c0-4a98-a382-71b6a497e2dc
+      alt: にゃんコツ神社
+      title: ''
+      width: 1280
+      height: 720
+  field_shopnumber:
+    -
+      value: 0

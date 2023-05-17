@@ -1,13 +1,8 @@
 langcode: ja
 status: true
 dependencies:
-  config:
-    - core.entity_view_mode.media.full
-    - core.entity_view_mode.media.media_library
-    - core.entity_view_mode.media.token
   module:
     - editor
-    - media
 name: 'フル HTML'
 format: full_html
 weight: 2
@@ -36,26 +31,3 @@ filters:
     status: true
     weight: 11
     settings: {  }
-  filter_html:
-    id: filter_html
-    provider: filter
-    status: false
-    weight: -10
-    settings:
-      allowed_html: ''
-      filter_html_help: true
-      filter_html_nofollow: false
-  media_embed:
-    id: media_embed
-    provider: media
-    status: true
-    weight: 100
-    settings:
-      default_view_mode: default
-      allowed_view_modes:
-        default: default
-        full: full
-        media_library: media_library
-        token: token
-      allowed_media_types:
-        banner_image: banner_image

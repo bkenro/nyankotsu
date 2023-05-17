@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 932ee4d8-e3af-404e-aa3a-2281c170746f
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shop21.jpg
+  uri:
+    -
+      value: 'public://2023-05/shop21_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 657621
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1683955288
