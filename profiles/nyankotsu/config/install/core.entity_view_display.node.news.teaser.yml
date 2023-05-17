@@ -30,6 +30,7 @@ content:
     weight: 100
     region: content
 hidden:
+  addtoany: true
   field_from: true
   field_media: true
   field_shops: true

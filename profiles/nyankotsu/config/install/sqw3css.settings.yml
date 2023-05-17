@@ -8,7 +8,7 @@ logo:
 favicon:
   use_default: 1
 website_width: none
-equal_width: 0
+equal_width: 1
 layout_user_login_custom: 0
 full_opacity_onscroll: 0
 breadcrumb_page_title: 0

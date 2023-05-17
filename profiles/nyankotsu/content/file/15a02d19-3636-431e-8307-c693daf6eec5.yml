@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 15a02d19-3636-431e-8307-c693daf6eec5
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nyankotsu_shoppingstreet_map.jpg
+  uri:
+    -
+      value: 'public://2023-05/nyankotsu_shoppingstreet_map.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 674549
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1684341441

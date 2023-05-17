@@ -47,5 +47,6 @@ content:
     weight: 0
     region: content
 hidden:
+  addtoany: true
   field_media: true
   langcode: true

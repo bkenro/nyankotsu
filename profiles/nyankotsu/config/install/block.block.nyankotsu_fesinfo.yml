@@ -1,0 +1,29 @@
+langcode: ja
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fa6d2e36-8045-474a-aac8-fb495d8e6780'
+  module:
+    - block_content
+    - system
+  theme:
+    - sqw3css
+id: nyankotsu_fesinfo
+theme: sqw3css
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'block_content:fa6d2e36-8045-474a-aac8-fb495d8e6780'
+settings:
+  id: 'block_content:fa6d2e36-8045-474a-aac8-fb495d8e6780'
+  label: にゃんコツまつり情報
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/about\r\n/shrine\r\n/shop/*"

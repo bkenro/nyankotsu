@@ -19,6 +19,7 @@ content:
     weight: 100
     region: content
 hidden:
+  addtoany: true
   body: true
   comment: true
   field_image: true

@@ -10,8 +10,8 @@ dependencies:
     - sqw3css
 id: sqw3css_views_block__news_related_shop_block_1
 theme: sqw3css
-region: sidebar_second
-weight: -5
+region: content
+weight: -3
 provider: null
 plugin: 'views_block:news_related_shop-block_1'
 settings:

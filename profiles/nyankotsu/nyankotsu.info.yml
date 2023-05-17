@@ -3,11 +3,14 @@ description: 'にゃんコツ商店街のデモサイトを構築します。'
 type: profile
 core_version_requirement: ^9 || ^10
 install:
+  - addtoany
   - admin_toolbar
   - admin_toolbar_tools
   - automated_cron
+  - back_to_top
   - big_pipe
   - block
+  - block_class
   - block_content
   - breakpoint
   - ckeditor5
@@ -21,6 +24,8 @@ install:
   - dynamic_page_cache
   - editor
   - field
+  - field_group
+  - field_group_table
   - field_ui
   - file
   - filter
@@ -59,6 +64,7 @@ default_content:
   file:
     - 06ce7c3f-238d-494f-92e7-ebe92544ef32
     - 0c275c17-5887-4892-b2a5-fb95eedbdbde
+    - 15a02d19-3636-431e-8307-c693daf6eec5
     - 27de8ab0-f1d3-44dc-8869-b5805d0e0381
     - 33d91e3e-acbd-4ec9-a0c8-3725017d781d
     - 33fc26f1-e173-43e8-9298-4565ae94a428
@@ -85,6 +91,7 @@ default_content:
     - acd2173a-ab2d-4cd5-9d61-fbdc989f817e
     - ae31efd8-cf9c-4b6e-b58f-264beb74fcad
     - b1232ec1-dee3-44fc-9ea0-d40d80962f45
+    - b3667887-4aa7-4dfe-876f-2060f7278db6
     - b71bda96-5cad-4aee-906c-62d2b7bf1d56
     - d2b4c814-ab2b-4763-84ae-f7505f756c86
     - d5f09a7c-3848-46e4-a303-080d02a7f683
@@ -131,7 +138,9 @@ default_content:
     - ff3b1f44-671b-4084-8a4f-8e3c09c114bc
   media:
     - 052b1b05-c258-4ca4-bb08-e28547509e3d
+    - 23c3eadd-f3bd-47e7-b9a7-7c3bd5105ae2
     - 32c2923c-9266-4a9f-bebe-6660309e29bf
+    - 3e43d925-12d0-404c-b728-d92efbd3873c
     - 65fc8171-88ff-41c9-acb5-eb395e39c8a8
   menu_link_content:
     - 60d953c8-4960-4ced-a91f-917c51a77c07
@@ -147,3 +156,4 @@ default_content:
     - ff617b15-a71d-4f41-bbd5-691b5160533b
   block_content:
     - b4adf3d0-9479-423b-828d-1dfcfc61ff9d
+    - fa6d2e36-8045-474a-aac8-fb495d8e6780

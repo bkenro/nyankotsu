@@ -22,4 +22,5 @@ content:
     weight: 100
     region: content
 hidden:
+  addtoany: true
   langcode: true

@@ -2,24 +2,20 @@ langcode: ja
 status: true
 dependencies:
   config:
-    - views.view.shop
+    - views.view.latest_news
   module:
-    - block_class
     - system
     - views
   theme:
     - sqw3css
-third_party_settings:
-  block_class:
-    classes: w3-link-blue
-id: sqw3css_views_block__shop_block_1
+id: views_block__latest_news_block_1
 theme: sqw3css
-region: sidebar_second
-weight: -7
+region: content
+weight: 0
 provider: null
-plugin: 'views_block:shop-block_1'
+plugin: 'views_block:latest_news-block_1'
 settings:
-  id: 'views_block:shop-block_1'
+  id: 'views_block:latest_news-block_1'
   label: ''
   label_display: visible
   provider: views
@@ -29,4 +25,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/shop/*\r\n/about"
+    pages: '<front>'

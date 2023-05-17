@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 23c3eadd-f3bd-47e7-b9a7-7c3bd5105ae2
+  bundle: image
+  default_langcode: ja
+  depends:
+    b3667887-4aa7-4dfe-876f-2060f7278db6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: matsuri.jpg
+  created:
+    -
+      value: 1684342905
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  field_media_image:
+    -
+      entity: b3667887-4aa7-4dfe-876f-2060f7278db6
+      alt: にゃんコツまつり
+      title: ''
+      width: 1280
+      height: 853

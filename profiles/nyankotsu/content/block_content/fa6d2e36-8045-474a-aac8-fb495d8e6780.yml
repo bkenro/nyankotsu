@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: fa6d2e36-8045-474a-aac8-fb495d8e6780
+  bundle: basic
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: にゃんコツまつり情報
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>恒例「にゃんコツまつり」近日開催！</p><drupal-media data-entity-type="media" data-entity-uuid="23c3eadd-f3bd-47e7-b9a7-7c3bd5105ae2" data-align="center">&nbsp;</drupal-media><p>もうすぐにゃんコツ祭りです。皆様お誘い合わせのうえ、遊びに来てください。</p>'
+      format: basic_html
+      summary: ''
