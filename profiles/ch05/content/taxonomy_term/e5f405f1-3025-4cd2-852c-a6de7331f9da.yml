@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: c5e1e67f-216e-41d2-9bf3-04afc5a9dfe2
+  uuid: e5f405f1-3025-4cd2-852c-a6de7331f9da
   bundle: tags
   default_langcode: ja
 default:
@@ -10,7 +10,7 @@ default:
       value: true
   name:
     -
-      value: ⽯神井川
+      value: テーマ
   weight:
     -
       value: 0
