@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: 197b80c9-e690-4b7a-a8e8-9cc6c88d2b4f
+  uuid: ff617b15-a71d-4f41-bbd5-691b5160533b
   bundle: tags
   default_langcode: ja
 default:
@@ -10,7 +10,7 @@ default:
       value: true
   name:
     -
-      value: 不忍池
+      value: 開発
   weight:
     -
       value: 0

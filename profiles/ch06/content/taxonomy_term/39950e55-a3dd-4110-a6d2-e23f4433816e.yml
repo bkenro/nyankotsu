@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: e7173de7-4839-42f2-a5e9-23d537ec9d3d
+  uuid: 39950e55-a3dd-4110-a6d2-e23f4433816e
   bundle: tags
   default_langcode: ja
 default:
@@ -10,7 +10,7 @@ default:
       value: true
   name:
     -
-      value: 花⾒
+      value: Drupal
   weight:
     -
       value: 0
