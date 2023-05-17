@@ -19,6 +19,6 @@ default:
       value: true
   body:
     -
-      value: '<img data-entity-uuid="d5f09a7c-3848-46e4-a303-080d02a7f683" data-entity-type="file" src="/sites/default/files/inline-images/nyankotsu_shrine.jpg">'
+      value: '<img data-entity-uuid="d5f09a7c-3848-46e4-a303-080d02a7f683" data-entity-type="file" src="/nyankotsu-latest/sites/default/files/inline-images/nyankotsu_shrine.jpg">'
       format: basic_html
       summary: ''
