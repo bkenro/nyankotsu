@@ -66,6 +66,7 @@ default_content:
     - 633d8fbd-71c0-4a98-a382-71b6a497e2dc
     - 65c1a5eb-0734-40bd-8414-7c9aa0b945f5
     - 687b9c37-c912-4ceb-918a-f81fa837c7e8
+    - 6c315913-bf48-4a66-9548-7aa39ccf3aa5
     - 868fc0f4-5fbc-40db-8846-482f013c5615
     - 89547fe3-c3e3-4f4d-ae37-2fbd524ddce3
     - 8cb70eb9-fad8-410b-b888-97cc6a13c8ca
@@ -125,8 +126,9 @@ default_content:
     - fb3e79a8-eaa5-429a-9fe6-9397db1d6276
     - ff3b1f44-671b-4084-8a4f-8e3c09c114bc
   media:
-    - 65fc8171-88ff-41c9-acb5-eb395e39c8a8
     - 052b1b05-c258-4ca4-bb08-e28547509e3d
+    - 32c2923c-9266-4a9f-bebe-6660309e29bf
+    - 65fc8171-88ff-41c9-acb5-eb395e39c8a8
   menu_link_content:
     - 60d953c8-4960-4ced-a91f-917c51a77c07
     - 7c57f132-24f1-48ce-9101-f1fd23eb9628

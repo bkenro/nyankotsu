@@ -12,7 +12,7 @@ default:
       value: nyankotsu_shrine_media.jpg
   uri:
     -
-      value: 'public://2023-05/nyankotsu_shrine_media.jpg'
+      value: 'public://2023-05/nyankotsu_shrine_media_0.jpg'
   filemime:
     -
       value: image/jpeg

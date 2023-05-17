@@ -12,7 +12,7 @@ default:
       value: nyankotsu_kasuterayaki.jpg
   uri:
     -
-      value: 'public://2023-05/nyankotsu_kasuterayaki.jpg'
+      value: 'public://2023-05/nyankotsu_kasuterayaki_0.jpg'
   filemime:
     -
       value: image/jpeg
