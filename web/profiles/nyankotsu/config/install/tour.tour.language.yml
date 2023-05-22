@@ -4,7 +4,7 @@ dependencies:
   module:
     - language
 id: language
-label: Language
+label: 言語
 module: language
 routes:
   -

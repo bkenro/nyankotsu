@@ -8,7 +8,7 @@ dependencies:
 id: sqw3css_messages
 theme: sqw3css
 region: highlighted
-weight: 0
+weight: -8
 provider: null
 plugin: system_messages_block
 settings:

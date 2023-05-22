@@ -1,9 +1,0 @@
-langcode: ja
-status: true
-dependencies: {  }
-id: public_files
-label: パブリックファイルディレクトリー
-type: DrupalFiles
-config:
-  name: 'Public Files Directory'
-  directory: 'public://'

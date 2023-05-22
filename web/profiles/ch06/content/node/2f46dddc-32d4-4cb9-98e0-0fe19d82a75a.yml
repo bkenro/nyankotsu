@@ -5,8 +5,9 @@ _meta:
   bundle: article
   default_langcode: ja
   depends:
-    e7173de7-4839-42f2-a5e9-23d537ec9d3d: taxonomy_term
-    197b80c9-e690-4b7a-a8e8-9cc6c88d2b4f: taxonomy_term
+    39950e55-a3dd-4110-a6d2-e23f4433816e: taxonomy_term
+    e5f405f1-3025-4cd2-852c-a6de7331f9da: taxonomy_term
+    ff617b15-a71d-4f41-bbd5-691b5160533b: taxonomy_term
 default:
   revision_uid:
     -
@@ -19,7 +20,7 @@ default:
       target_id: 1
   title:
     -
-      value: 今年の夜桜
+      value: Drupalでテーマを開発する方法
   created:
     -
       value: 1684020456
@@ -34,23 +35,25 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /article/2
       langcode: ja
   body:
     -
-      value: '<p>少し葉桜になってきたところだが、今年の桜もきれいだった。</p>'
+      value: '<p>Drupalでは、テーマと呼ばれる仕組みで、サイトのレイアウト（見た目）を変更できます。テーマは無料でダウンロードできるものもたくさんあり、またそれらのテーマを用いてカスタマイズ（サブテーマ化）することもできますし、いちから作ることもできます。Drupal 10になってから、新しく「スターターキットテーマ」という方法が導入され、テーマの開発方法もアップデートされました。 この記事では、Drupal 10でテーマを開発する方法を紹介します。・・・</p>'
       format: basic_html
       summary: ''
   comment:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1684067748
+      last_comment_timestamp: 1684328718
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
   field_tags:
     -
-      entity: e7173de7-4839-42f2-a5e9-23d537ec9d3d
+      entity: 39950e55-a3dd-4110-a6d2-e23f4433816e
     -
-      entity: 197b80c9-e690-4b7a-a8e8-9cc6c88d2b4f
+      entity: e5f405f1-3025-4cd2-852c-a6de7331f9da
+    -
+      entity: ff617b15-a71d-4f41-bbd5-691b5160533b

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b3667887-4aa7-4dfe-876f-2060f7278db6
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: matsuri.jpg
+  uri:
+    -
+      value: 'public://2023-05/matsuri.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 701835
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1684342905

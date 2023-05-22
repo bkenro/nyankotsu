@@ -2,6 +2,6 @@ langcode: ja
 status: true
 dependencies: {  }
 id: main
-label: 'Main navigation'
+label: メインナビゲーション
 description: サイトセクションのリンク
 locked: true

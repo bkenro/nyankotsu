@@ -10,8 +10,8 @@ id: node.shop.body
 field_name: body
 entity_type: node
 bundle: shop
-label: 紹介文
-description: どのようなお店なのかを短い文章で紹介してください。
+label: 紹介⽂
+description: ''
 required: false
 translatable: true
 default_value: {  }

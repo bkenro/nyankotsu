@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e87310b7-3f7a-4aab-8717-50a85af989db
+  bundle: article
+  default_langcode: ja
+  depends:
+    39950e55-a3dd-4110-a6d2-e23f4433816e: taxonomy_term
+    0374a55b-f2fd-490b-92e7-671d9deff7aa: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Drupalのおすすめモジュール3選！
+  created:
+    -
+      value: 1684020506
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /article/1
+      langcode: ja
+  body:
+    -
+      value: '<p>Drupalのモジュールとは、機能を指します。必要なモジュールをインストール・有効化することでサイトに機能を追加できます。モジュールは、実に4万個以上存在します！その中でまるちゃん先生のおすすめモジュールを紹介します。・・・</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1684342070
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_tags:
+    -
+      entity: 39950e55-a3dd-4110-a6d2-e23f4433816e
+    -
+      entity: 0374a55b-f2fd-490b-92e7-671d9deff7aa

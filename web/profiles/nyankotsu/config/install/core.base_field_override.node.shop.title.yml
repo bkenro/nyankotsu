@@ -7,7 +7,7 @@ id: node.shop.title
 field_name: title
 entity_type: node
 bundle: shop
-label: タイトル
+label: 店名
 description: ''
 required: true
 translatable: true

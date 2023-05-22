@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b4adf3d0-9479-423b-828d-1dfcfc61ff9d
+  bundle: basic
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: メインビジュアル
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<drupal-media data-entity-type="media" data-entity-uuid="65fc8171-88ff-41c9-acb5-eb395e39c8a8" data-align="center">&nbsp;</drupal-media>'
+      format: basic_html
+      summary: ''

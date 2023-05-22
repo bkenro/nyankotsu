@@ -1,8 +1,0 @@
-langcode: ja
-status: true
-dependencies: {  }
-id: entire_site
-label: 'Entire Site (do not use)'
-type: EntireSite
-config:
-  name: 'Entire Site (do not use)'

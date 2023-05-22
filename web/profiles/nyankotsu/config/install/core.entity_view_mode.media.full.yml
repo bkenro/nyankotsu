@@ -4,6 +4,6 @@ dependencies:
   module:
     - media
 id: media.full
-label: 'Full content'
+label: 全文
 targetEntityType: media
 cache: true

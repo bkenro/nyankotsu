@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 32c2923c-9266-4a9f-bebe-6660309e29bf
+  bundle: image
+  default_langcode: ja
+  depends:
+    6c315913-bf48-4a66-9548-7aa39ccf3aa5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: shrine_history_media.jpg
+  created:
+    -
+      value: 1684328844
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  field_media_image:
+    -
+      entity: 6c315913-bf48-4a66-9548-7aa39ccf3aa5
+      alt: 猫骨神の歴史
+      title: ''
+      width: 3174
+      height: 2477

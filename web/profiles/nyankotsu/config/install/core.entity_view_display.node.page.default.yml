@@ -3,8 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_banner
-    - field.field.node.page.field_category
     - node.type.page
   module:
     - text
@@ -28,6 +26,4 @@ content:
     region: content
 hidden:
   addtoany: true
-  field_banner: true
-  field_category: true
   langcode: true

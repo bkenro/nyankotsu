@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a77dfe2c-217c-4568-b0a1-f493a6b81b82
+  bundle: shop
+  default_langcode: ja
+  depends:
+    36f464a9-5c7f-4306-8ab8-7aea8197b68e: taxonomy_term
+    4d704997-b23d-4b50-9f14-8c6e18a5b830: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'antique  Portobello'
+  created:
+    -
+      value: 1683954712
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /shop/20
+      langcode: ja
+  body:
+    -
+      value: '<p>イギリスのアンティークジュエリーやレース、小物を中心に取り扱っています。年に4回買付で不在にします。</p>'
+      format: basic_html
+      summary: ''
+  field_category:
+    -
+      value: 骨董
+  field_industry:
+    -
+      entity: 36f464a9-5c7f-4306-8ab8-7aea8197b68e
+  field_openhours:
+    -
+      value: 12〜20時
+  field_products:
+    -
+      value: 英国骨董品
+  field_shopimage:
+    -
+      entity: 4d704997-b23d-4b50-9f14-8c6e18a5b830
+      alt: 'antique  Portobello'
+      title: ''
+      width: 1280
+      height: 880
+  field_shopnumber:
+    -
+      value: 20

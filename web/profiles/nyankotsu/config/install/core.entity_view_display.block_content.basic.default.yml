@@ -4,7 +4,6 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
-    - field.field.block_content.basic.field_image
   module:
     - text
 id: block_content.basic.default
@@ -20,5 +19,4 @@ content:
     weight: 0
     region: content
 hidden:
-  field_image: true
   langcode: true

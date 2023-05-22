@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ca660184-9003-4543-88e9-42b3747fcda6
+  bundle: page
+  default_langcode: ja
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'うどん・そば　たかやなぎ'
+  created:
+    -
+      value: 1683936343
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  body:
+    -
+      value: '<img data-entity-uuid="d2b4c814-ab2b-4763-84ae-f7505f756c86" data-entity-type="file" src="/sites/default/files/inline-images/sample1_0.jpg" alt="うどん・そば　たかやなぎ"><p>店主自慢の手打ちのうどん、そばをお楽しみください。ランチタイムにはお得なセットもあります。</p><table><tbody><tr><td>主な取扱い</td><td>うどん・そば</td></tr><tr><td>営業時間</td><td>11〜20時</td></tr><tr><td>店舗カテゴリ</td><td>和食</td></tr><tr><td>店舗番号</td><td>1</td></tr></tbody></table>'
+      format: full_html
+      summary: ''

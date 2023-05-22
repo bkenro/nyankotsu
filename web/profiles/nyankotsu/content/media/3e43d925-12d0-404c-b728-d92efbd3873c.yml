@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3e43d925-12d0-404c-b728-d92efbd3873c
+  bundle: image
+  default_langcode: ja
+  depends:
+    15a02d19-3636-431e-8307-c693daf6eec5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: nyankotsu_shoppingstreet_map.jpg
+  created:
+    -
+      value: 1684341441
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja
+  field_media_image:
+    -
+      entity: 15a02d19-3636-431e-8307-c693daf6eec5
+      alt: にゃんコツ商店街へようこそ!!
+      title: ''
+      width: 1640
+      height: 2360

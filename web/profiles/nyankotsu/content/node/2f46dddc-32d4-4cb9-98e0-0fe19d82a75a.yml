@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f46dddc-32d4-4cb9-98e0-0fe19d82a75a
+  bundle: article
+  default_langcode: ja
+  depends:
+    39950e55-a3dd-4110-a6d2-e23f4433816e: taxonomy_term
+    e5f405f1-3025-4cd2-852c-a6de7331f9da: taxonomy_term
+    ff617b15-a71d-4f41-bbd5-691b5160533b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Drupalでテーマを開発する方法
+  created:
+    -
+      value: 1684020456
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /article/2
+      langcode: ja
+  body:
+    -
+      value: '<p>Drupalでは、テーマと呼ばれる仕組みで、サイトのレイアウト（見た目）を変更できます。テーマは無料でダウンロードできるものもたくさんあり、またそれらのテーマを用いてカスタマイズ（サブテーマ化）することもできますし、いちから作ることもできます。Drupal 10になってから、新しく「スターターキットテーマ」という方法が導入され、テーマの開発方法もアップデートされました。 この記事では、Drupal 10でテーマを開発する方法を紹介します。・・・</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1684342070
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_tags:
+    -
+      entity: 39950e55-a3dd-4110-a6d2-e23f4433816e
+    -
+      entity: e5f405f1-3025-4cd2-852c-a6de7331f9da
+    -
+      entity: ff617b15-a71d-4f41-bbd5-691b5160533b

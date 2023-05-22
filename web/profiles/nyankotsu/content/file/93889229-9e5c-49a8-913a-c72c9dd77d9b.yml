@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 93889229-9e5c-49a8-913a-c72c9dd77d9b
+  default_langcode: ja
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nyankotsu_kasuterayaki.jpg
+  uri:
+    -
+      value: 'public://2023-05/nyankotsu_kasuterayaki.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 291045
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1684045581

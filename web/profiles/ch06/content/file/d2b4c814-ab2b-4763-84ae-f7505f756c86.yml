@@ -12,7 +12,7 @@ default:
       value: sample1.jpg
   uri:
     -
-      value: 'public://inline-images/sample1_0.jpg'
+      value: 'public://inline-images/sample1_0_0.jpg'
   filemime:
     -
       value: image/jpeg

@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 39950e55-a3dd-4110-a6d2-e23f4433816e
+  bundle: tags
+  default_langcode: ja
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Drupal
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: ja

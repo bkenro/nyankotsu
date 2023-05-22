@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: shop_thumbnail
+label: 店舗サムネイル
+effects:
+  dae68460-742d-4ed5-8364-5e19c2b570ba:
+    uuid: dae68460-742d-4ed5-8364-5e19c2b570ba
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 480
+      height: 320
+      anchor: center-center

@@ -22,10 +22,10 @@ settings:
       - drupalInsertImage
       - '|'
       - heading
+      - code
       - '|'
       - sourceEditing
-      - '|'
-      - code
+      - drupalMedia
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -45,18 +45,17 @@ settings:
         - '<dl>'
         - '<dt>'
         - '<dd>'
-        - '<span>'
         - '<a hreflang>'
         - '<blockquote cite>'
         - '<ul type>'
-        - '<ol type>'
+        - '<ol start type>'
         - '<h2 id>'
         - '<h3 id>'
         - '<h4 id>'
         - '<h5 id>'
         - '<h6 id>'
-    editor_advanced_link_link:
-      enabled_attributes: {  }
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: true
   scheme: public

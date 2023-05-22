@@ -8,7 +8,7 @@ dependencies:
     - taxonomy
     - user
 id: taxonomy_term
-label: 'Taxonomy term'
+label: タクソノミーターム
 module: taxonomy
 description: 特定のタクソノミータームに所属するコンテンツ。
 tag: default
@@ -34,22 +34,22 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: ページ毎の件数
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- 全て -'
             offset: false
-            offset_label: Offset
+            offset_label: オフセット
       exposed_form:
         type: basic
         options:
           submit_button: 適用
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
       access:
         type: perm
         options:
@@ -296,7 +296,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: ページ
     display_plugin: page
     position: 1
     display_options:

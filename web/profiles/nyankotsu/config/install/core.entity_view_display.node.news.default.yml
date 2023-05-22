@@ -1,0 +1,52 @@
+langcode: ja
+status: true
+dependencies:
+  config:
+    - field.field.node.news.body
+    - field.field.node.news.field_from
+    - field.field.node.news.field_media
+    - field.field.node.news.field_shops
+    - node.type.news
+  module:
+    - datetime
+    - text
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_from:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_shops:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  field_media: true
+  langcode: true
