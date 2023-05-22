@@ -12,7 +12,7 @@ default:
       value: shop15.jpg
   uri:
     -
-      value: 'public://2023-05/shop15_0.jpg'
+      value: 'public://2023-05/shop15.jpg'
   filemime:
     -
       value: image/jpeg
