@@ -1,10 +1,7 @@
 langcode: ja
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:b4adf3d0-9479-423b-828d-1dfcfc61ff9d'
   module:
-    - block_content
     - system
   theme:
     - sqw3css
