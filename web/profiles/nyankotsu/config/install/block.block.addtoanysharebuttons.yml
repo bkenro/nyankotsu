@@ -1,26 +1,30 @@
 langcode: ja
 status: true
 dependencies:
-  config:
-    - views.view.news_related_shop
   module:
+    - addtoany
+    - block_class
     - node
-    - views
   theme:
     - sqw3css
-id: sqw3css_views_block__news_related_shop_block_1
+third_party_settings:
+  block_class:
+    classes: w3-right-align
+id: addtoanysharebuttons
 theme: sqw3css
 region: content
-weight: -2
+weight: -3
 provider: null
-plugin: 'views_block:news_related_shop-block_1'
+plugin: addtoany_block
 settings:
-  id: 'views_block:news_related_shop-block_1'
-  label: ''
-  label_display: visible
-  provider: views
-  views_label: ''
-  items_per_page: none
+  id: addtoany_block
+  label: 'AddToAny share buttons'
+  label_display: '0'
+  provider: addtoany
+  link_url: ''
+  link_title: ''
+  buttons_size: ''
+  addtoany_html: ''
   context_mapping: {  }
 visibility:
   'entity_bundle:node':
@@ -29,4 +33,5 @@ visibility:
     context_mapping:
       node: '@node.node_route_context:node'
     bundles:
+      news: news
       shop: shop

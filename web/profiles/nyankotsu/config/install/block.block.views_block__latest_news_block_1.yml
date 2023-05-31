@@ -11,7 +11,7 @@ dependencies:
 id: views_block__latest_news_block_1
 theme: sqw3css
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:latest_news-block_1'
 settings:
