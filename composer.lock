@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88bb226237b053dc4f4d25c1930dca85",
+    "content-hash": "2e10d8d52f3a6747d96d20f27d794c79",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3016,6 +3016,67 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/field_group",
                 "issues": "https://www.drupal.org/project/issues/field_group"
+            }
+        },
+        {
+            "name": "drupal/field_group_table",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group_table.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group_table-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "d638d52da161375886a4136aef8cef1e0f6f5428"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/field_group": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1689001773",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "a.ross",
+                    "homepage": "https://www.drupal.org/user/968198"
+                },
+                {
+                    "name": "Antonnavi",
+                    "homepage": "https://www.drupal.org/user/875410"
+                },
+                {
+                    "name": "bforchhammer",
+                    "homepage": "https://www.drupal.org/user/216396"
+                },
+                {
+                    "name": "charlie-s",
+                    "homepage": "https://www.drupal.org/user/277960"
+                },
+                {
+                    "name": "webadpro",
+                    "homepage": "https://www.drupal.org/user/708024"
+                }
+            ],
+            "description": "Render fields in a 2-column table.",
+            "homepage": "https://www.drupal.org/project/field_group_table",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group_table"
             }
         },
         {

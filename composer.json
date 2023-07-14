@@ -41,6 +41,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/editor_advanced_link": "^2.1",
         "drupal/field_group": "^3.4",
+        "drupal/field_group_table": "^1.1",
         "drupal/google_tag": "^1.5",
         "drupal/imce": "^3.0",
         "drupal/metatag": "^1.19",
@@ -70,9 +71,6 @@
     },
     "extra": {
         "patches": {
-            "drupal/field_group_table": {
-                "Automated Drupal 10 compatibility fixes (3287516)": "https://www.drupal.org/files/issues/2022-06-15/field_group_table.1.x-dev.rector.patch"
-            },
             "drupal/default_content": {
                 "Predictable order of content import (3175870)": "https://www.drupal.org/files/issues/2020-10-08/3175870.patch"
             }
