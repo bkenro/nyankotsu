@@ -1,0 +1,14 @@
+langcode: ja
+status: true
+dependencies: {  }
+name: full
+label: 'Full (1600)'
+effects:
+  5a254ca5-778a-4587-a0ce-af36b80fb782:
+    uuid: 5a254ca5-778a-4587-a0ce-af36b80fb782
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: null
+      upscale: false
