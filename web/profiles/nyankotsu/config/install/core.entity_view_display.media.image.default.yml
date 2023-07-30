@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
+    - image.style.full
     - media.type.image
   module:
     - image
@@ -16,7 +17,7 @@ content:
     label: visually_hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: full
       image_loading:
         attribute: lazy
     third_party_settings: {  }
