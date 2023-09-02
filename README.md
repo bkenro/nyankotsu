@@ -75,7 +75,7 @@ $ drush @local site:install nyankotsu -y
 なお、このディストリビューションには、Drush によるインストールを簡潔に実行するためのサイトエイリアスのテンプレートが含まれているので、このファイルを Codespaces の Dev Container 環境に合わせて調整して CLI から Drupal サイトをインストールすることもできます。
 
 1. 「ポート」タブで「web https」の「ローカルアドレス」列にある「ローカルアドレスのコピー」（上方向矢印アイコン）をクリックして、ポートフォワードされたサイトの URL をクリップボードにコピーする。
-2. Codespaces のエクスプローラーで、drush/sites/self.site/yml ファイルを開き、`root` サブキーを `/var/www/html` に、uri サブキーを 1. でコピーしたサイトの URL に、それぞれ変更する。
+2. Codespaces のエクスプローラーで、drush/sites/self.site.yml ファイルを開き、`root` サブキーを `/var/www/html` に、uri サブキーを 1. でコピーしたサイトの URL に、それぞれ変更する。
 3. さらに、`db-url` サブキー（2か所）の値を `mysql://db:db@db/db` に変更する。
 4. ターミナルで `ddev drush @local site:install nyankotsu -y` と入力して実行する。サイトのインストールが開始される。
 5. 終了するとプロンプトが復帰する。1. でコピーした URL をブラウザで開くとサイトが表示される。
