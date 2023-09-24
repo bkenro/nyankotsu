@@ -67,8 +67,8 @@ $ drush @local site:install nyankotsu -y
 
 このリポジトリには、[DDEV](https://ddev.readthedocs.io/) で Drupal 10 プロジェクトを実行するための [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) の設定が含まれています。GitHub アカウントをお持ちであれば、GitHub Codespaces でにゃんコツ商店街のデモサイトを立ち上げることができます。
 
-1. [にゃんコツディストリビューションのリポジトリ](https://github.com/bkenro/nyankotsu/tree/develop)を表示する。
-2. 「<> Code」をクリックし、「Codespaces」タブの「Create codespace on develop」をクリックする。"Setting up your codespaces" というメッセージが表示され、Dev Container 環境のビルドが開始される。しばらく待つと、ターミナルで環境構築の後処理として DDEV の設定処理が実行される。
+1. [にゃんコツディストリビューションのリポジトリ](https://github.com/bkenro/nyankotsu)を表示する。
+2. 「<> Code」をクリックし、「Codespaces」タブの「Create codespace on main」をクリックする。"Setting up your codespaces" というメッセージが表示され、Dev Container 環境のビルドが開始される。しばらく待つと、ターミナルで環境構築の後処理として DDEV の設定処理が実行される。
 3. ターミナルでプロンプトが表示されたら、`ddev composer install` と入力して実行する。コンテナが起動し、ポートのフォワード設定が行われる。
 4. 終了後「ポート」タブで、「web https」行の「ローカルアドレス」列で「ブラウザーで開く」（地球アイコン）をクリックすると、コンテナ上のウェブサーバーに接続され、Drupal のインストール画面が表示される。あとは通常どおり Drupal サイトをインストールできる。
 
