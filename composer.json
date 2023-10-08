@@ -50,7 +50,7 @@
         "drupal/redirect": "^1.7",
         "drupal/schema_metatag": "^2.3",
         "drupal/token": "^1.10",
-        "drupal/webprofiler": "^10.0",
+        "drupal/webprofiler": "^10.1",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^11.0",
         "oomphinc/composer-installers-extender": "^2.0"
