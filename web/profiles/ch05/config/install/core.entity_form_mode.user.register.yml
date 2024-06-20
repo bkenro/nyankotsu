@@ -5,5 +5,6 @@ dependencies:
     - user
 id: user.register
 label: 登録
+description: ''
 targetEntityType: user
 cache: true
