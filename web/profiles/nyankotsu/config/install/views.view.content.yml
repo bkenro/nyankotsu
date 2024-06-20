@@ -252,6 +252,7 @@ display:
             previous: '‹ 前'
             first: '« 最初'
             last: '最後 »'
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
