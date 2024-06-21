@@ -1,0 +1,11 @@
+langcode: ja
+status: true
+dependencies:
+  module:
+    - help
+id: help_search
+label: ヘルプ
+path: help
+weight: 0
+plugin: help_search
+configuration: {  }

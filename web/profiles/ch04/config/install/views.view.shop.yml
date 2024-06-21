@@ -175,6 +175,7 @@ display:
             items_per_page_options_all_label: '- 全て -'
             offset: false
             offset_label: オフセット
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
