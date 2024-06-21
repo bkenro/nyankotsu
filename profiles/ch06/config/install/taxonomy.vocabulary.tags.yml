@@ -5,3 +5,4 @@ name: タグ
 vid: tags
 description: 記事をトピックなどに合わせてグループ化するにはタグを使用してください
 weight: 0
+new_revision: false

@@ -1,10 +1,7 @@
 langcode: ja
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:72e295dd-b669-4d9f-8ce5-c48d18989b4c'
   module:
-    - block_content
     - system
   theme:
     - olivero
