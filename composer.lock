@@ -2742,26 +2742,26 @@
         },
         {
             "name": "drupal/d8w3css",
-            "version": "2.0.13",
+            "version": "2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/d8w3css.git",
-                "reference": "2.0.13"
+                "reference": "2.0.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/d8w3css-2.0.13.zip",
-                "reference": "2.0.13",
-                "shasum": "9c8cc77777aa33b3f5b5f1b28d094f48c44d4271"
+                "url": "https://ftp.drupal.org/files/projects/d8w3css-2.0.14.zip",
+                "reference": "2.0.14",
+                "shasum": "88362c8b5d6430227c5286b71ac3aa6b0d222025"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^9 || ^10 || ^11"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.0.13",
-                    "datestamp": "1707087511",
+                    "version": "2.0.14",
+                    "datestamp": "1722786471",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
