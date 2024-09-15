@@ -2,3 +2,8 @@
 .view-content .views-field-field-image a img {
   width: auto;
 }
+
+/* 埋め込みメディア画像のマージン調整 */
+#welcome-text .align-center {
+  margin: 0;
+}
