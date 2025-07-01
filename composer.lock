@@ -67,7 +67,7 @@
             "version": "1.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jackmoore/colorbox.git",
+                "url": "https://github.com/jackmoore/colorbox.git",
                 "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "dist": {
@@ -82,16 +82,16 @@
         },
         {
             "name": "bower-asset/dompurify",
-            "version": "2.5.8",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cure53/DOMPurify.git",
-                "reference": "ee992fc4880215757c9c09e9638bb95e1dc24533"
+                "url": "git@github.com:cure53/DOMPurify.git",
+                "reference": "f464d957f24c48ec00076ee0d26694e3fd6c0387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cure53/DOMPurify/zipball/ee992fc4880215757c9c09e9638bb95e1dc24533",
-                "reference": "ee992fc4880215757c9c09e9638bb95e1dc24533"
+                "url": "https://api.github.com/repos/cure53/DOMPurify/zipball/f464d957f24c48ec00076ee0d26694e3fd6c0387",
+                "reference": "f464d957f24c48ec00076ee0d26694e3fd6c0387"
             },
             "type": "bower-asset",
             "license": [
@@ -119,16 +119,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.16",
+            "version": "v0.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "5c580b4f09285c078f0c5cb261573412a736a8cb"
+                "reference": "194feb154e32f585dd2ca8ae6929a53abfcebf9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/5c580b4f09285c078f0c5cb261573412a736a8cb",
-                "reference": "5c580b4f09285c078f0c5cb261573412a736a8cb",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/194feb154e32f585dd2ca8ae6929a53abfcebf9e",
+                "reference": "194feb154e32f585dd2ca8ae6929a53abfcebf9e",
                 "shasum": ""
             },
             "require": {
@@ -174,9 +174,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.16"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.17"
             },
-            "time": "2025-01-22T17:03:45+00:00"
+            "time": "2025-05-16T17:04:33+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -2204,20 +2204,20 @@
         },
         {
             "name": "drupal/colorbox",
-            "version": "2.1.1",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/colorbox.git",
-                "reference": "2.1.1"
+                "reference": "2.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/colorbox-2.1.1.zip",
-                "reference": "2.1.1",
-                "shasum": "59f2fc48ba12ebc91293f7d33138ae6a7761b4b1"
+                "url": "https://ftp.drupal.org/files/projects/colorbox-2.1.4.zip",
+                "reference": "2.1.4",
+                "shasum": "a06e2ed6ab9b41a448aaa6a621560e9706564c76"
             },
             "require": {
-                "drupal/core": "^9 || ^10 || ^11"
+                "drupal/core": "^10 || ^11"
             },
             "suggest": {
                 "jackmoore/colorbox": "The Colorbox library is required to use the drupal/colorbox module."
@@ -2225,8 +2225,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.1",
-                    "datestamp": "1723487172",
+                    "version": "2.1.4",
+                    "datestamp": "1745856815",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2234,7 +2234,7 @@
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9 || ^10 || ^11"
+                        "drush.services.yml": "^10 || ^11"
                     }
                 }
             },
@@ -2886,17 +2886,17 @@
         },
         {
             "name": "drupal/diff",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/diff.git",
-                "reference": "8.x-1.8"
+                "reference": "8.x-1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "a104bf731a282f06ff0d5a7fb861c01b5b933765"
+                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "4ef0126e983e4935a41ad8131faa00a2e28bcec0"
             },
             "require": {
                 "drupal/core": "^10 || ^11",
@@ -2904,7 +2904,7 @@
                 "php": "^8.1"
             },
             "require-dev": {
-                "jangregor/phpstan-prophecy": "dev-master",
+                "jangregor/phpstan-prophecy": "^1.0",
                 "mglaman/phpstan-drupal": "^1.2.10",
                 "phpstan/extension-installer": "^1.2",
                 "phpstan/phpstan": "^1.11",
@@ -2916,8 +2916,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.8",
-                    "datestamp": "1727892285",
+                    "version": "8.x-1.9",
+                    "datestamp": "1748990194",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3088,20 +3088,20 @@
         },
         {
             "name": "drupal/editor_advanced_link",
-            "version": "2.2.6",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/editor_advanced_link.git",
-                "reference": "2.2.6"
+                "reference": "2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/editor_advanced_link-2.2.6.zip",
-                "reference": "2.2.6",
-                "shasum": "f6d7c437900f288b1e735b4faf2decc99bdd30e8"
+                "url": "https://ftp.drupal.org/files/projects/editor_advanced_link-2.3.0.zip",
+                "reference": "2.3.0",
+                "shasum": "bd567b4f6a11ec80989ad2f420eaec6614653f88"
             },
             "require": {
-                "drupal/core": "^10.2 || ^11.0"
+                "drupal/core": "^10.5 || ^11.2"
             },
             "require-dev": {
                 "drupal/ckeditor": "*",
@@ -3110,8 +3110,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.6",
-                    "datestamp": "1723183019",
+                    "version": "2.3.0",
+                    "datestamp": "1751299046",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3124,11 +3124,11 @@
             ],
             "authors": [
                 {
-                    "name": "DuaelFr",
+                    "name": "duaelfr",
                     "homepage": "https://www.drupal.org/user/931394"
                 },
                 {
-                    "name": "VladimirAus",
+                    "name": "vladimiraus",
                     "homepage": "https://www.drupal.org/user/673120"
                 }
             ],
@@ -3737,17 +3737,17 @@
         },
         {
             "name": "drupal/tmgmt_deepl",
-            "version": "2.2.10",
+            "version": "2.2.12",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tmgmt_deepl.git",
-                "reference": "2.2.10"
+                "reference": "2.2.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tmgmt_deepl-2.2.10.zip",
-                "reference": "2.2.10",
-                "shasum": "13d83d11398a1050a7f429b345d60f64ca677e4f"
+                "url": "https://ftp.drupal.org/files/projects/tmgmt_deepl-2.2.12.zip",
+                "reference": "2.2.12",
+                "shasum": "af02a94be76d4ebf10676ef59802e84d77d625aa"
             },
             "require": {
                 "drupal/core": "^10.2 || ^11",
@@ -3756,8 +3756,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.10",
-                    "datestamp": "1740134275",
+                    "version": "2.2.12",
+                    "datestamp": "1749799384",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3917,17 +3917,17 @@
         },
         {
             "name": "drupal/webprofiler",
-            "version": "10.3.0",
+            "version": "10.3.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webprofiler.git",
-                "reference": "10.3.0"
+                "reference": "10.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webprofiler-10.3.0.zip",
-                "reference": "10.3.0",
-                "shasum": "4d861b3ec6e7fe27f268afb61adb224bef965652"
+                "url": "https://ftp.drupal.org/files/projects/webprofiler-10.3.1.zip",
+                "reference": "10.3.1",
+                "shasum": "e934387176b624972da7d2952c27c0d5438ab5f7"
             },
             "require": {
                 "drupal/core": ">=10.1.2, <11",
@@ -3956,8 +3956,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "10.3.0",
-                    "datestamp": "1735649349",
+                    "version": "10.3.1",
+                    "datestamp": "1748345232",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4797,16 +4797,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad"
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d990688c91cedfb69753ffc2512727ec646df2ad",
-                "reference": "d990688c91cedfb69753ffc2512727ec646df2ad",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
                 "shasum": ""
             },
             "require": {
@@ -4843,7 +4843,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.7-dev"
+                    "dev-main": "2.8-dev"
                 }
             },
             "autoload": {
@@ -4900,7 +4900,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-29T14:10:59+00:00"
+            "time": "2025-05-05T12:20:28+00:00"
         },
         {
             "name": "league/config",
@@ -4986,16 +4986,16 @@
         },
         {
             "name": "league/container",
-            "version": "4.2.4",
+            "version": "4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "7ea728b013b9a156c409c6f0fc3624071b742dec"
+                "reference": "d3cebb0ff4685ff61c749e54b27db49319e2ec00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/7ea728b013b9a156c409c6f0fc3624071b742dec",
-                "reference": "7ea728b013b9a156c409c6f0fc3624071b742dec",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/d3cebb0ff4685ff61c749e54b27db49319e2ec00",
+                "reference": "d3cebb0ff4685ff61c749e54b27db49319e2ec00",
                 "shasum": ""
             },
             "require": {
@@ -5056,7 +5056,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/container/issues",
-                "source": "https://github.com/thephpleague/container/tree/4.2.4"
+                "source": "https://github.com/thephpleague/container/tree/4.2.5"
             },
             "funding": [
                 {
@@ -5064,7 +5064,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-10T12:42:13+00:00"
+            "time": "2025-05-20T12:55:37+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -5135,16 +5135,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.17.1",
+            "version": "v1.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "90e01c0da3a5a1c2c06d94a56fa2e0594769d525"
+                "reference": "465810689c477fbba17f4f949b75e4d0bdab13ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/90e01c0da3a5a1c2c06d94a56fa2e0594769d525",
-                "reference": "90e01c0da3a5a1c2c06d94a56fa2e0594769d525",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/465810689c477fbba17f4f949b75e4d0bdab13ea",
+                "reference": "465810689c477fbba17f4f949b75e4d0bdab13ea",
                 "shasum": ""
             },
             "require": {
@@ -5157,7 +5157,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17.1-dev"
+                    "dev-master": "1.17.2-dev"
                 }
             },
             "autoload": {
@@ -5178,9 +5178,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.17.1"
+                "source": "https://github.com/mck89/peast/tree/v1.17.2"
             },
-            "time": "2025-06-27T14:33:03+00:00"
+            "time": "2025-07-01T09:30:45+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -5287,16 +5287,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
+                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
-                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "url": "https://api.github.com/repos/nette/utils/zipball/e67c4061eb40b9c113b218214e42cb5a0dda28f2",
+                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2",
                 "shasum": ""
             },
             "require": {
@@ -5367,22 +5367,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.5"
+                "source": "https://github.com/nette/utils/tree/v4.0.7"
             },
-            "time": "2024-08-07T15:39:19+00:00"
+            "time": "2025-06-03T04:55:08+00:00"
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.4.0",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "447a020a1f875a434d62f2a401f53b82a396e494"
+                "reference": "ae59794362fe85e051a58ad36b289443f57be7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
-                "reference": "447a020a1f875a434d62f2a401f53b82a396e494",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ae59794362fe85e051a58ad36b289443f57be7a9",
+                "reference": "ae59794362fe85e051a58ad36b289443f57be7a9",
                 "shasum": ""
             },
             "require": {
@@ -5425,9 +5425,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.5.0"
             },
-            "time": "2024-12-30T11:07:19+00:00"
+            "time": "2025-05-31T08:24:38+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -6235,16 +6235,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.8",
+            "version": "v0.12.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "85057ceedee50c49d4f6ecaff73ee96adb3b3625"
+                "reference": "1b801844becfe648985372cb4b12ad6840245ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/85057ceedee50c49d4f6ecaff73ee96adb3b3625",
-                "reference": "85057ceedee50c49d4f6ecaff73ee96adb3b3625",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1b801844becfe648985372cb4b12ad6840245ace",
+                "reference": "1b801844becfe648985372cb4b12ad6840245ace",
                 "shasum": ""
             },
             "require": {
@@ -6308,9 +6308,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.8"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.9"
             },
-            "time": "2025-03-16T03:05:19+00:00"
+            "time": "2025-06-23T02:35:06+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -8582,7 +8582,7 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v7.2.4",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
@@ -8624,7 +8624,7 @@
             "description": "Provides a way to profile code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/stopwatch/tree/v7.2.4"
+                "source": "https://github.com/symfony/stopwatch/tree/v7.3.0"
             },
             "funding": [
                 {
