@@ -2,7 +2,7 @@ name: SQ W3CSS Sub-theme
 core: '8.x'
 type: theme
 base theme: drupal8_w3css_theme
-core_version_requirement: ^8 || ^9 || ^10
+core_version_requirement: ^10 || ^11
 description: 'drupal8 w3css sub-theme for SQbase install profile.'
 libraries:
   - sqw3css/sqw3css-global

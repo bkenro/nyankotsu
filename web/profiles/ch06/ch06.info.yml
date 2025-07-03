@@ -1,6 +1,6 @@
 name: にゃんコツ：第6章末の状態
 type: profile
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^10 || ^11
 install:
   - automated_cron
   - big_pipe
