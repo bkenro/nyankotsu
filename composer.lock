@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7231770f3ca5e25d0ef2f7edf384c76",
+    "content-hash": "aa02daa6eb77cd2ac6a29afb6dccf82a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3043,30 +3043,27 @@
         },
         {
             "name": "drupal/field_group_table",
-            "version": "1.1.0",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/field_group_table.git",
-                "reference": "8.x-1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/field_group_table-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "d638d52da161375886a4136aef8cef1e0f6f5428"
+                "reference": "894ad5456f676329d7d09ccaa7acdd1d437dc52f"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/core": "^8 || ^9 || ^10 || ^11",
                 "drupal/field_group": "*"
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1689001773",
+                    "version": "8.x-1.1+1-dev",
+                    "datestamp": "1731417048",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -9099,7 +9096,8 @@
     "aliases": [],
     "minimum-stability": "RC",
     "stability-flags": {
-        "drupal/default_content": 15
+        "drupal/default_content": 15,
+        "drupal/field_group_table": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

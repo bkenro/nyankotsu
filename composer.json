@@ -41,7 +41,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/editor_advanced_link": "^2.1",
         "drupal/field_group": "^3.4",
-        "drupal/field_group_table": "^1.1",
+        "drupal/field_group_table": "1.x-dev@dev",
         "drupal/google_tag": "^1.5",
         "drupal/imce": "^3.0",
         "drupal/metatag": "^2.1",
