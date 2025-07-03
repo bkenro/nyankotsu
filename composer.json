@@ -52,7 +52,7 @@
         "drupal/tmgmt_deepl": "^2.2",
         "drupal/token": "^1.10",
         "drupal/webprofiler": "^10.1",
-        "drupal/xmlsitemap": "^1.5",
+        "drupal/xmlsitemap": "^2.0",
         "drush/drush": "^12",
         "oomphinc/composer-installers-extender": "^2.0"
     },
