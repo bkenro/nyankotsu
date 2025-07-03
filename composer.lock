@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "abc9fd1cd4cd746ab0f8be8fcff82fcb",
+    "content-hash": "a7231770f3ca5e25d0ef2f7edf384c76",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3217,42 +3217,46 @@
         },
         {
             "name": "drupal/metatag",
-            "version": "1.26.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/metatag.git",
-                "reference": "8.x-1.26"
+                "reference": "2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.26.zip",
-                "reference": "8.x-1.26",
-                "shasum": "afa4a37422748baa2f0c35b13961438668ef3be8"
+                "url": "https://ftp.drupal.org/files/projects/metatag-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "94f272db388cbf1e4df775a2677f8c35818c9382"
             },
             "require": {
-                "drupal/core": "^9.3 || ^10",
-                "drupal/token": "^1.0"
+                "drupal/core": "^9.4 || ^10 || ^11",
+                "drupal/token": "^1.0",
+                "php": ">=8.0"
             },
             "require-dev": {
-                "drupal/devel": "^4.0 || ^5.0",
-                "drupal/hal": "^9 || ^1 || ^2",
+                "drupal/forum": "1.x-dev",
+                "drupal/hal": "^1 || ^2 || ^9",
                 "drupal/metatag_dc": "*",
                 "drupal/metatag_open_graph": "*",
                 "drupal/page_manager": "^4.0",
-                "drupal/panelizer": "^4.0",
                 "drupal/redirect": "^1.0",
-                "drupal/webprofiler": "^9 || ^10",
+                "ergebnis/composer-normalize": "*",
                 "mpyw/phpunit-patch-serializable-comparison": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.26",
-                    "datestamp": "1687856123",
+                    "version": "2.1.1",
+                    "datestamp": "1748539484",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "composer-normalize": {
+                    "indent-size": 2,
+                    "indent-style": "space"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3411,21 +3415,22 @@
         },
         {
             "name": "drupal/schema_metatag",
-            "version": "2.6.0",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/schema_metatag.git",
-                "reference": "8.x-2.6"
+                "reference": "3.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/schema_metatag-8.x-2.6.zip",
-                "reference": "8.x-2.6",
-                "shasum": "a84c126185eabda796348839470a8c3575f78c92"
+                "url": "https://ftp.drupal.org/files/projects/schema_metatag-3.0.3.zip",
+                "reference": "3.0.3",
+                "shasum": "54fadabe0b56cb3a5f48a48ff438e8ad5883423c"
             },
             "require": {
-                "drupal/core": "^9.0 || ^10 || ^11",
-                "drupal/metatag": "^1.0"
+                "drupal/core": "^9 || ^10 || ^11",
+                "drupal/metatag": "^2.0",
+                "php": ">=8.0"
             },
             "require-dev": {
                 "drupal/coder": "^8.3",
@@ -3439,8 +3444,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.6",
-                    "datestamp": "1720959928",
+                    "version": "3.0.3",
+                    "datestamp": "1721141808",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
