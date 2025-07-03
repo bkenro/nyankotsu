@@ -28,7 +28,6 @@
         "drupal/back_to_top": "^3.0",
         "drupal/backup_migrate": "^5.0",
         "drupal/block_class": "^3.0",
-        "drupal/codesnippet": "^1.7",
         "drupal/coffee": "^2.0",
         "drupal/colorbox": "^2.0",
         "drupal/core-composer-scaffold": "^10",
