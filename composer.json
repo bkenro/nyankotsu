@@ -51,7 +51,7 @@
         "drupal/tmgmt": "^1.15",
         "drupal/tmgmt_deepl": "^2.2",
         "drupal/token": "^1.10",
-        "drupal/webprofiler": "^10.1",
+        "drupal/webprofiler": "^11.1",
         "drupal/xmlsitemap": "^2.0",
         "drush/drush": "^13",
         "oomphinc/composer-installers-extender": "^2.0"
