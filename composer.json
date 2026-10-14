@@ -66,11 +66,12 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
+            "drupal/core-vendor-hardening": true,
             "oomphinc/composer-installers-extender": true,
-            "cweagans/composer-patches": true,
-            "drupal/core-vendor-hardening": true
+            "php-http/discovery": true
         }
     },
     "extra": {
